@@ -1,0 +1,23 @@
+<tool id="RDFSyntaxConverter" name="Converts RDF/XML to other formats" version="0.0.1">
+	<description>Converts RDF/XML to one of RDF/XML-ABBREV, N3, N-TRIPLE, TURTLE or tabular</description>
+	
+	<!-- for debugging remove 2>/dev/null -->
+	
+	<command>java -jar ${__tool_data_path__}/shared/jars/sadi_generic_client.jar $url $input $format > $output 2>/dev/null</command>
+		
+	<inputs>
+		<param name="input" type="data" label="RDF input for SADI service"/>	
+		<param name="format" type="select" label="Choose RDF output format">
+			<option value="RDF/XML-ABBREV" selected="true">RDF/XML-ABBREV</option>
+			<option value="N3">N3</option>
+			<option value="N-TRIPLE">N-TRIPLE</option>
+			<option value="N3">TURTLE</option>
+			<option value="TAB">Tab separated</option>
+		</param>
+	</inputs>
+	<outputs>
+		<data format="text" name="output" />
+	</outputs>
+	<help>
+	</help>
+</tool>
