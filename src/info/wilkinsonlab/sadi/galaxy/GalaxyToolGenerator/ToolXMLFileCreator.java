@@ -34,6 +34,7 @@ public class ToolXMLFileCreator {
 		output.write("    </outputs>\n");
 		output.write("    <help>\n\n");
 		output.write("    **What it does**\n\n");
+		output.write("        Service URI: " + service.getURI() + "\n\n");					
 		output.write("        Service name: " + service.getName() + "\n\n");
 		output.write("        Service description: " + service.getDescription() + "\n\n");
 		output.write("        Input OWL Class: " + service.getInputClassURI() + "\n\n");

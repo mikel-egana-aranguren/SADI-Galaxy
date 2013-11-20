@@ -56,22 +56,22 @@ public class SADIGalaxyToolGenerator {
 			Iterator results_iterator = results.iterator();
 			while (results_iterator.hasNext()) {
 				String service_URL = results_iterator.next().toString();
-				System.out.println("Trying to create service " + service_URL);
+				System.out.println("INFO: Trying to create service " + service_URL);
 
 				Service service = null;
 				try {
 					service = ServiceFactory.createService(service_URL);
 				} catch (Exception e) {
-					System.out.println("Unable to create service "
+					System.out.println("INFO: Unable to create service "
 							+ service_URL);
 					e.printStackTrace();
 					System.out
-							.println("No Galaxy tool will be generated for service "
+							.println("INFO: No Galaxy tool will be generated for service "
 									+ service_URL);
 				}
 				if (service != null) {
 					System.out
-							.println("Service generation succesful - Galaxy tool will be generated for "
+							.println("INFO: Service generation succesful - Galaxy tool will be generated for "
 									+ service_URL);
 					new ToolXMLFileCreator(service, tool_dir);
 					proper_services = proper_services + 1;
@@ -88,7 +88,7 @@ public class SADIGalaxyToolGenerator {
 		} catch (Exception e1) {
 			e1.printStackTrace();
 		}
-		System.out.println(results.size() + " SADI services retrieved");
-		System.out.println(proper_services + " Galaxy tools created");
+		System.out.println("INFO: " + results.size() + " SADI services retrieved");
+		System.out.println("INFO: " + proper_services + " Galaxy tools created");
 	}
 }

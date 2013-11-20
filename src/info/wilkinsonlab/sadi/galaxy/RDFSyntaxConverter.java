@@ -15,10 +15,10 @@ import com.hp.hpl.jena.util.FileManager;
 public class RDFSyntaxConverter {
 
 	/**
-	 * @param input
-	 *            RDF
-	 * @param format
-	 *            : one of N3, RDF/XML-ABBREV, N-TRIPLE, TURTLE, TAB
+	 * @param input RDF
+	 *            
+	 * @param format: one of N3, N-TRIPLE, TAB
+	 *            
 	 */
 	public static void main(String[] args) {
 		String input_RDF_path = args[0];
@@ -28,24 +28,21 @@ public class RDFSyntaxConverter {
 		model.read(in, null);
 
 		if (format.equals("TAB")) {
-			String queryString = "SELECT ?s ?p ?o" + "WHERE { " + " ?s ?p ?o "
-					+ "} ";
+			String queryString = "SELECT * WHERE { ?s ?p ?o } ";
 			Query query = QueryFactory.create(queryString);
 			QueryExecution qe = QueryExecutionFactory.create(query, model);
 			try {
 				ResultSet rs = qe.execSelect();
-				System.out.println("Subject \t Predicate \t Object\n");
+				System.out.println("Subject\tPredicate\tObject\n");
 				while (rs.hasNext()) {
 					QuerySolution row = rs.nextSolution();
 					System.out.println(row.get("s") + "\t" + row.get("p")
 							+ "\t" + row.get("o") + "\n");
 				}
-			} 
-			finally {
+			} finally {
 				qe.close();
 			}
-		} 
-		else {
+		} else {
 			model.write(System.out, format);
 		}
 	}

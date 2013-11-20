@@ -8,16 +8,23 @@
 	<inputs>
 		<param name="input" type="data" label="RDF input for SADI service"/>	
 		<param name="format" type="select" label="Choose RDF output format">
-			<option value="RDF/XML-ABBREV" selected="true">RDF/XML-ABBREV</option>
 			<option value="N3">N3</option>
 			<option value="N-TRIPLE">N-TRIPLE</option>
-			<option value="N3">TURTLE</option>
-			<option value="TAB">Tab separated</option>
+			<option value="TAB" selected="true">Tab separated columns</option>
 		</param>
 	</inputs>
 	<outputs>
 		<data format="text" name="output" />
 	</outputs>
 	<help>
+	  
+	  **What it does**
+	  
+	  Given an RDF input file, it converts it to any of the following formats: N3, N-TRIPLE or TAB (A tab delimited file containing three columns for -subjects, predicates and objects-, for other Galaxy tools to consume).
+	  
+	  **About**
+	  
+	  More information and contact: http://github.com/mikel-egana-aranguren/SADI-Galaxy
+	  
 	</help>
 </tool>

@@ -1,5 +1,5 @@
 <tool id="sadi_generic" name="SADI services generic caller" version="0.0.1">
-	<description>Given an RDF input and a service URL, infers whether the RDF complies with the service and if so executes it, obtaining an ouput RDF from the service</description>
+	<description>Send any input RDF to any SADI service</description>
 	
 	<!-- for debugging remove 2>/dev/null -->
 	
@@ -12,9 +12,15 @@
 	<outputs>
 		<data format="text" name="output" />
 	</outputs>
-		
-
-
 	<help>
+	  
+	  **What it does**
+	  
+	  Given an RDF input and a SADI service URL, infers whether the RDF complies with the service's input OWL Class and if so executes it, obtaining an ouput RDF from the SADI service.
+	  
+	  **About**
+	  
+	  More information and contact: http://github.com/mikel-egana-aranguren/SADI-Galaxy
+	  
 	</help>
 </tool>
