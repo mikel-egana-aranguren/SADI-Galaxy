@@ -25,7 +25,7 @@ public class SADIGenericClient {
 	 * 
 	 */
 	
-	private static final Logger log = Logger.getLogger(SADIGenericClient.class);
+//	private static final Logger log = Logger.getLogger(SADIGenericClient.class);
 	public static void main(String[] args)  {
 		String service_URL = args[0];
 		String input_RDF = args[1];
@@ -35,7 +35,9 @@ public class SADIGenericClient {
 			service = ServiceFactory.createService(service_URL.trim());
 		} 
 		catch (SADIException e) {
-			log.error("error instantiating service", e);
+			System.out.println("[ERROR] Error creating service object: ");
+			System.out.println(e.getMessage());
+			e.printStackTrace();
 			service = null;
 		}
 		
@@ -52,6 +54,8 @@ public class SADIGenericClient {
 		 		output.close();
 			} 
 			catch (SADIException e) {
+				System.out.println("[ERROR] Error invoking service: ");
+				System.out.println(e.getMessage());
 				e.printStackTrace();
 			}
  		}
