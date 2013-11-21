@@ -15,7 +15,7 @@ More information:
 Usage
 -----
 
-The main function of SADI-Galaxy is to query a SADI registry and create, for each service, a Galaxy tool (a tool XML file, an entry in the `tool_conf.xml` file, and the needed jar files). Those files will be copied to the appropriate places in your Galaxy server (the `galaxy-dist` directory resembles an actual Galaxy server setting so it is self-explanatory); additionally, the tool can be configured to automatically (try to) edit the `tool_conf.xml` file of your Galaxy server.
+The main function of SADI-Galaxy is to query a SADI registry and create, for each service, a Galaxy tool (a tool XML file, an entry in the `tool_conf.xml` file, and the needed jar files). Those files will be copied to the appropriate places in your Galaxy server (the `galaxy-dist` directory resembles an actual Galaxy server setting so it is self-explanatory); additionally, SADI-Galaxy can be configured to automatically (try to) edit the `tool_conf.xml` file of your Galaxy server.
 
 The script `SADI-Galaxy.sh` is the principal tool; you should stop Galaxy, run it, and start Galaxy again for the SADI services to appear as part of the Galaxy interface. It can be executed directly (See parameters list bellow) but a convenience script, `RUN-SADI-Galaxy.sh`, is included with example parameters. `SADI-Galaxy.sh` can be used to generate the following Galaxy tools:
 
@@ -27,14 +27,14 @@ Therefore `SADI-Galaxy.sh` can be executed to generate, depending on the paramet
 
 * Generic SADI caller and RDF Syntax Converter: 
 
-  * (Required) Absolut path to your Galaxy installation: `/home/mikel/galaxy-dist/`
+  * (Required) Absolut path to your Galaxy installation (For SADI-Galaxy to copy the necessary files in your Galaxy server): `/home/mikel/galaxy-dist/`
   * (Required) Attempt to edit Galaxy tool_conf.xml (`edit`) or not (`no_edit`). If `no_edit` is selected (recommended), copy the lines from the newly generated `galaxy-dist/tool_conf.xml` to the actual `tool_conf.xml` of your galaxy server (e.g. `/home/mikel/galaxy-dist/tool_conf.xml`). 
 
 * Generic SADI caller, RDF Syntax Converter and a tool for each of the services retrieved from the registry:
 
   * (Required) `/home/mikel/galaxy-dist/`
   * (Required) `edit` or `no_edit` 
-  * (Optional) Path (Relative to this script) to SPARQL query (use this to tune the retrieved SADI services): `sparql/simple_query.sparql`
+  * (Optional) Path (Relative to this script) to SPARQL query (use this to tune which SADI services are retrieved): `sparql/simple_query.sparql`
   * (Optional) SADI registry endpoint: `http://dev.biordf.net/sparql/`
 
 So a typical execution to generate the basic system (no services from registry) without editing `tool_conf.xml` would look like this:
@@ -45,7 +45,7 @@ If we want to generate the SADI services defined in file `sparql/simple_query.sp
 
 `./SADI-Galaxy.sh /home/mikel/galaxy-dist/ no_edit sparql/simple_query.sparql http://dev.biordf.net/sparql/`
 
-In order to define new SPARQL queries, a new file can be created with a different SPARQL query. Any new SPARQL must have a variable called `?s` representing services, and (presumably) the following basic structure:
+In order to define a differnt SPARQL query, a new file can be created and passed as argument to `./SADI-Galaxy.sh`. The new SPARQL query must have a variable called `?s` representing SADI services, and (presumably) the following basic structure:
 
 ```
 PREFIX  sadi: <http://sadiframework.org/ontologies/sadi.owl#>
@@ -76,7 +76,7 @@ WHERE {
   }
 ```
 
-`TEST_SADI_services.sh` can be used to test concrete SADI services.
+The query will be used by the Galaxy tool generator to retrieve SADI services and test that they are up and running. If that it is not the case, a Galaxy tool will not be generated. The results of the process can be checked at the `log` file. Also, `TEST_SADI_services.sh` can be used to test concrete SADI services.
 
 Funding
 -------
