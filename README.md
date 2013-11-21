@@ -27,15 +27,15 @@ Therefore `SADI-Galaxy.sh` can be executed to generate, depending on the paramet
 
 * Generic SADI caller and RDF Syntax Converter: 
 
-** (Required) Absolut path to your Galaxy installation: `/home/mikel/galaxy-dist/`
-** (Required) Attempt to edit Galaxy tool_conf.xml (`edit`) or not (`no_edit`). If `no_edit` is selected (recommended), copy the lines from the newly generated `galaxy-dist/tool_conf.xml` to the actual `tool_conf.xml` of your galaxy server (e.g. `/home/mikel/galaxy-dist/tool_conf.xml`). 
+  * (Required) Absolut path to your Galaxy installation: `/home/mikel/galaxy-dist/`
+  * (Required) Attempt to edit Galaxy tool_conf.xml (`edit`) or not (`no_edit`). If `no_edit` is selected (recommended), copy the lines from the newly generated `galaxy-dist/tool_conf.xml` to the actual `tool_conf.xml` of your galaxy server (e.g. `/home/mikel/galaxy-dist/tool_conf.xml`). 
 
 * Generic SADI caller, RDF Syntax Converter and a tool for each of the services retrieved from the registry:
 
-** (Required) `/home/mikel/galaxy-dist/`
-** (Required) `edit` or `no_edit` 
-** (Optional) Path (Relative to this script) to SPARQL query (use this to tune the retrieved SADI services): `sparql/simple_query.sparql`
-** (Optional) SADI registry endpoint: `http://dev.biordf.net/sparql/`
+  * (Required) `/home/mikel/galaxy-dist/`
+  * (Required) `edit` or `no_edit` 
+  * (Optional) Path (Relative to this script) to SPARQL query (use this to tune the retrieved SADI services): `sparql/simple_query.sparql`
+  * (Optional) SADI registry endpoint: `http://dev.biordf.net/sparql/`
 
 So a typical execution to generate the basic system (no services from registry) without editing `tool_conf.xml` would look like this:
 
@@ -71,8 +71,8 @@ SELECT ?s ?org
 WHERE { 
 	  ?s rdf:type serv:serviceDescription .
 	  ?s rdf:type  sadi:Service .
-          ?s  serv:providedBy ?org .
-          ?org  dc:publisher "wilkinsonlab.info"
+	  ?s  serv:providedBy ?org .
+	  ?org  dc:publisher "wilkinsonlab.info"
   }
 ```
 
