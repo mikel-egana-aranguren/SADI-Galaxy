@@ -67,7 +67,7 @@ PREFIX  sadi: <http://sadiframework.org/ontologies/sadi.owl#>
 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX  serv: <http://www.mygrid.org.uk/mygrid-moby-service#>
 
-SELECT ?s ?org
+SELECT ?s
 WHERE { 
 	  ?s rdf:type serv:serviceDescription .
 	  ?s rdf:type  sadi:Service .
