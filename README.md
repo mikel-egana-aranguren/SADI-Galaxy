@@ -34,20 +34,20 @@ Therefore `SADI-Galaxy.sh` can be executed to generate, depending on the paramet
 
   * (Required) `/home/mikel/galaxy-dist/`
   * (Required) `edit` or `no_edit` 
-  * (Optional) Path (Relative to this script) to SPARQL query (use this to tune which SADI services are retrieved): `sparql/simple_query.sparql`
+  * (Optional) Path (Relative to this script) to the folder containing the SPARQL queries to execute (use this to tune which SADI services are retrieved): `sparql/queries/`
   * (Optional) SADI registry endpoint: `http://dev.biordf.net/sparql/`
 
 So a typical execution to generate the basic system (no services from registry) without editing `tool_conf.xml` would look like this:
 
 `./SADI-Galaxy.sh /home/mikel/galaxy-dist/ no_edit`
 
-This will copy the necessary files for the tools SADI Generic and RDF Syntax Converter to appear as part of Galaxy when restarted. If we want to generate the SADI services defined in file `sparql/simple_query.sparql`, querying the registry at `http://dev.biordf.net/sparql/`, without editing:
+This will copy the necessary files for the tools SADI Generic and RDF Syntax Converter to appear as part of Galaxy when restarted. If we want to generate the SADI services defined in the queries at the folder `sparql/queries/`, querying the registry at `http://dev.biordf.net/sparql/`, without editing:
 
-`./SADI-Galaxy.sh /home/mikel/galaxy-dist/ no_edit sparql/simple_query.sparql http://dev.biordf.net/sparql/`
+`./SADI-Galaxy.sh /home/mikel/galaxy-dist/ no_edit sparql/queries/ http://dev.biordf.net/sparql/`
 
 This will generate the necessary files for each SADI service to appear as a Galaxy tool and appear in Galaxy when started (As well as SADI generic and RDF Syntax Converter).
 
-In order to define a different SPARQL query to retrieve a different set of SADI services, a new file can be created and passed as argument to `./SADI-Galaxy.sh`. The new SPARQL query must have a variable called `?s` representing SADI services, and (presumably) the following basic structure:
+In order to define different SPARQL queries to retrieve a different set of SADI services, they can be simply added to the queries folder (In this case `sparql/queries/`). The new SPARQL queries must have a variable called `?s` representing SADI services, and (presumably) the following basic structure:
 
 ```
 PREFIX  sadi: <http://sadiframework.org/ontologies/sadi.owl#>
@@ -78,11 +78,29 @@ WHERE {
   }
 ```
 
-The script `GENERATE_SPARQL_queries.sh` can be used to generate pre-caned queries so that you only need to add values, see the script for details. For example if we want 
+The script `GENERATE_SPARQL_queries.sh` can be used to generate new queries using pre-caned queries so that you only need to add values and you can create your own base queries, as long as you add the `%PATTERN` keyword to your query. For example, if we want to generate many queries for many publishers, we can define the base query like this: 
 
-Also, `TEST_SADI_services.sh` can be used to test concrete SADI services.
+```
+PREFIX  dc:   <http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl#>
+PREFIX  sadi: <http://sadiframework.org/ontologies/sadi.owl#>
+PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX  serv: <http://www.mygrid.org.uk/mygrid-moby-service#>
 
-In summary, the following tools are available:
+SELECT ?s
+WHERE {
+      ?s rdf:type serv:serviceDescription .
+      ?s rdf:type  sadi:Service .
+      ?s  serv:providedBy ?org .
+      ?org  dc:publisher "%PATTERN"
+  }
+
+```
+
+And then execute the query generator like this:
+
+`java -jar generate_sparql_queries.jar sparql/basequeries/publisher.sparql wilkinsonlab.info illuminae.com dev.biordf.net Cyber-ShARE sadiframework.org`
+
+This will generate a query for each publisher. Finally, `TEST_SADI_services.sh` can be used to test concrete SADI services. Therefore, in summary, the following tools are available:
 
 * `SADI-Galaxy.sh`: main tool, for generating SADI services.
 * `RUN-SADI-Galaxy.sh`: convenience script to run `SADI-Galaxy.sh`.

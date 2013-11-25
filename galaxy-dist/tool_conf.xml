@@ -1,7 +1,2 @@
-	<section name="SADI services" id="SADI">
-		<label text="SADI common utilities" id="SADI-common-utilities"/>
-			<tool file="SADI/sadi_generic.xml"/>
-			<tool file="SADI/RDFSyntaxConverter.xml"/>
-		<label text="SADI services" id="SADI-services"/>
 	</section>
 </toolbox>

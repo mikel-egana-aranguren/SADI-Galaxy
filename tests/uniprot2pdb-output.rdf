@@ -1,0 +1,1181 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://sadiframework.org/examples/uniprot2pdb.owl#"
+    xmlns:sio="http://semanticscience.org/resource/"
+    xmlns:lsrn="http://purl.oclc.org/SADI/LSRN/"
+    xmlns:sadi="http://sadiframework.org/ontologies/properties.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2J21">
+    <sio:SIO_000008 rdf:nodeID="A0"/>
+    <rdfs:label>2J21:X-ray:1.60 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2FOO</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2X0U</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1H26</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2H2D</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1OLH">
+    <sio:SIO_000008 rdf:nodeID="A5"/>
+    <rdfs:label>1OLH:NMR:-:A/B/C/D=319-360;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1AIE">
+    <sio:SIO_000008 rdf:nodeID="A6"/>
+    <rdfs:label>1AIE:X-ray:1.50 A:A=326-356;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4IBW">
+    <sio:SIO_000008 rdf:nodeID="A7"/>
+    <rdfs:label>4IBW:X-ray:1.79 A:A=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2J1Y</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1SAL</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3DAC</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3Q01">
+    <sio:SIO_000008 rdf:nodeID="A11"/>
+    <rdfs:label>3Q01:X-ray:2.10 A:A/B=94-356;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1TSR</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1A1U</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1TUP">
+    <sio:SIO_000008 rdf:nodeID="A14"/>
+    <rdfs:label>1TUP:X-ray:2.20 A:A/B/C=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1PES">
+    <sio:SIO_000008 rdf:nodeID="A15"/>
+    <rdfs:label>1PES:NMR:-:A/B/C/D=325-355;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2F1X</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1MA3">
+    <sio:SIO_000008 rdf:nodeID="A17"/>
+    <rdfs:label>1MA3:X-ray:2.00 A:B=372-389;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4IBV</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3OQ5">
+    <sio:SIO_000008 rdf:nodeID="A19"/>
+    <rdfs:label>3OQ5:X-ray:2.50 A:D/E=377-386;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2H4J">
+    <sio:SIO_000008 rdf:nodeID="A20"/>
+    <rdfs:label>2H4J:X-ray:2.10 A:D=372-389;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3D05</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4BUZ</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4IBV">
+    <sio:SIO_000008 rdf:nodeID="A18"/>
+    <rdfs:label>4IBV:X-ray:2.10 A:A=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3KZ8">
+    <sio:SIO_000008 rdf:nodeID="A23"/>
+    <rdfs:label>3KZ8:X-ray:1.91 A:A/B=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1SAF">
+    <sio:SIO_000008 rdf:nodeID="A24"/>
+    <rdfs:label>1SAF:NMR:-:A/B/C/D=319-360;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2H59">
+    <sio:SIO_000008 rdf:nodeID="A25"/>
+    <rdfs:label>2H59:X-ray:1.90 A:D/E=372-389;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1XQH</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1DT7">
+    <sio:SIO_000008 rdf:nodeID="A27"/>
+    <rdfs:label>1DT7:NMR:-:X/Y=367-388;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2YBG</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1PET">
+    <sio:SIO_000008 rdf:nodeID="A29"/>
+    <rdfs:label>1PET:NMR:-:A/B/C/D=325-355;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2FOJ">
+    <sio:SIO_000008 rdf:nodeID="A30"/>
+    <rdfs:label>2FOJ:X-ray:1.60 A:B=363-367;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4BUZ">
+    <sio:SIO_000008 rdf:nodeID="A22"/>
+    <rdfs:label>4BUZ:X-ray:1.90 A:P=379-386;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2H1L</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1C26</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A33">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2BIQ</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2K8F">
+    <sio:SIO_000008 rdf:nodeID="A34"/>
+    <rdfs:label>2K8F:NMR:-:B=1-39;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A35">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3TG5</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1SAE">
+    <sio:SIO_000008 rdf:nodeID="A36"/>
+    <rdfs:label>1SAE:NMR:-:A/B/C/D=319-360;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2Z5T">
+    <sio:SIO_000008 rdf:nodeID="A37"/>
+    <rdfs:label>2Z5T:X-ray:2.30 A:P/Q/R=15-29;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4IBU">
+    <sio:SIO_000008 rdf:nodeID="A38"/>
+    <rdfs:label>4IBU:X-ray:1.70 A:A/B/C/D=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A39">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3IGK</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A40">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4LOF</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2H4H">
+    <sio:SIO_000008 rdf:nodeID="A41"/>
+    <rdfs:label>2H4H:X-ray:1.99 A:B=372-389;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A36">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1SAE</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1OLG">
+    <sio:SIO_000008 rdf:nodeID="A42"/>
+    <rdfs:label>1OLG:NMR:-:A/B/C/D=319-360;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A43">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3KMD</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2FEJ">
+    <sio:SIO_000008 rdf:nodeID="A44"/>
+    <rdfs:label>2FEJ:NMR:-:A=94-297;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2B3G">
+    <sio:SIO_000008 rdf:nodeID="A45"/>
+    <rdfs:label>2B3G:X-ray:1.60 A:B=33-60;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2J0Z">
+    <sio:SIO_000008 rdf:nodeID="A46"/>
+    <rdfs:label>2J0Z:NMR:-:A/B/C/D=326-356;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4IBT">
+    <sio:SIO_000008 rdf:nodeID="A47"/>
+    <rdfs:label>4IBT:X-ray:1.70 A:A/B/C/D=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1GZH">
+    <sio:SIO_000008 rdf:nodeID="A48"/>
+    <rdfs:label>1GZH:X-ray:2.60 A:A/C=95-292;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4KVP">
+    <sio:SIO_000008 rdf:nodeID="A49"/>
+    <rdfs:label>4KVP:X-ray:1.50 A:A/B/C/D=95-289;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A50">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2BIM</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A51">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3D09</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A52">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4AGM</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A42">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1OLG</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A53">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2J11</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A54">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1YC5</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A55">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3ZME</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2H1L">
+    <sio:SIO_000008 rdf:nodeID="A31"/>
+    <rdfs:label>2H1L:X-ray:3.16 A:M/N/O/P/Q/R/S/T/U/V/W/X=92-292;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A56">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3D0A</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2BIQ">
+    <sio:SIO_000008 rdf:nodeID="A33"/>
+    <rdfs:label>2BIQ:X-ray:1.80 A:A=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2PCX">
+    <sio:SIO_000008 rdf:nodeID="A57"/>
+    <rdfs:label>2PCX:X-ray:1.54 A:A=94-292;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1YCR">
+    <sio:SIO_000008 rdf:nodeID="A58"/>
+    <rdfs:label>1YCR:X-ray:2.60 A:B=15-29;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1JSP">
+    <sio:SIO_000008 rdf:nodeID="A59"/>
+    <rdfs:label>1JSP:NMR:-:A=367-386;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A60">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2X0V</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A61">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1YCS</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2J21</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3D0A">
+    <sio:SIO_000008 rdf:nodeID="A56"/>
+    <rdfs:label>3D0A:X-ray:1.80 A:A/B/C/D=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4LO9">
+    <sio:SIO_000008 rdf:nodeID="A62"/>
+    <rdfs:label>4LO9:X-ray:2.50 A:A/B/C/D=95-289;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1TUP</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1UOL">
+    <sio:SIO_000008 rdf:nodeID="A63"/>
+    <rdfs:label>1UOL:X-ray:1.90 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A64">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4LOE</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2H4F">
+    <sio:SIO_000008 rdf:nodeID="A65"/>
+    <rdfs:label>2H4F:X-ray:2.00 A:D=372-389;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A62">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4LO9</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A66">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2L14</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A58">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1YCR</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2Z5S">
+    <sio:SIO_000008 rdf:nodeID="A67"/>
+    <rdfs:label>2Z5S:X-ray:2.30 A:P/Q/R=15-29;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A63">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1UOL</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4LOF">
+    <sio:SIO_000008 rdf:nodeID="A40"/>
+    <rdfs:label>4LOF:X-ray:2.00 A:A=94-289;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A68">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2H2F</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1YCS">
+    <sio:SIO_000008 rdf:nodeID="A61"/>
+    <rdfs:label>1YCS:X-ray:2.20 A:A=94-292;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1YCQ">
+    <sio:SIO_000008 rdf:nodeID="A69"/>
+    <rdfs:label>1YCQ:X-ray:2.30 A:B=13-29;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2YDR">
+    <sio:SIO_000008 rdf:nodeID="A70"/>
+    <rdfs:label>2YDR:X-ray:2.75 A:P=144-154;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4IBZ">
+    <sio:SIO_000008 rdf:nodeID="A71"/>
+    <rdfs:label>4IBZ:X-ray:1.92 A:A/B/C/D=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A72">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2J1Z</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3SAK">
+    <sio:SIO_000008 rdf:nodeID="A73"/>
+    <rdfs:label>3SAK:NMR:-:A/B/C/D=319-360;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A71">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4IBZ</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A37">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2Z5T</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A74">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4IBS</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1AIE</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2H4J</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A65">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2H4F</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A46">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2J0Z</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4AGM">
+    <sio:SIO_000008 rdf:nodeID="A52"/>
+    <rdfs:label>4AGM:X-ray:1.52 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A70">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2YDR</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A75">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2J10</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A67">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2Z5S</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A76">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3Q06</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2BIO">
+    <sio:SIO_000008 rdf:nodeID="A77"/>
+    <rdfs:label>2BIO:X-ray:1.90 A:A=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4IBY">
+    <sio:SIO_000008 rdf:nodeID="A78"/>
+    <rdfs:label>4IBY:X-ray:1.45 A:A/B=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A79">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2GS0</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4LOE">
+    <sio:SIO_000008 rdf:nodeID="A64"/>
+    <rdfs:label>4LOE:X-ray:1.85 A:A/B/C/D=95-289;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3TS8">
+    <sio:SIO_000008 rdf:nodeID="A80"/>
+    <rdfs:label>3TS8:X-ray:2.80 A:A/B/C/D=94-355;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A80">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3TS8</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A81">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2AHI</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A82">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4AGO</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2J1W">
+    <sio:SIO_000008 rdf:nodeID="A83"/>
+    <rdfs:label>2J1W:X-ray:1.80 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2H59</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A84">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3DAB</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A38">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4IBU</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A73">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3SAK</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1PES</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A48">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1GZH</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3TG5">
+    <sio:SIO_000008 rdf:nodeID="A35"/>
+    <rdfs:label>3TG5:X-ray:2.30 A:B=365-375;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3KZ8</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4AGL">
+    <sio:SIO_000008 rdf:nodeID="A85"/>
+    <rdfs:label>4AGL:X-ray:1.70 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1C26">
+    <sio:SIO_000008 rdf:nodeID="A32"/>
+    <rdfs:label>1C26:X-ray:1.70 A:A=325-356;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A47">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4IBT</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A86">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3D07</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4HJE">
+    <sio:SIO_000008 rdf:nodeID="A87"/>
+    <rdfs:label>4HJE:X-ray:1.91 A:A/B/C/D=92-291;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A88">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4IJT</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2BIP">
+    <sio:SIO_000008 rdf:nodeID="A89"/>
+    <rdfs:label>2BIP:X-ray:1.80 A:A=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A90">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2VUK</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1XQH">
+    <sio:SIO_000008 rdf:nodeID="A26"/>
+    <rdfs:label>1XQH:X-ray:1.75 A:B/F=369-377;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4AGP">
+    <sio:SIO_000008 rdf:nodeID="A91"/>
+    <rdfs:label>4AGP:X-ray:1.50 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1KZY">
+    <sio:SIO_000008 rdf:nodeID="A92"/>
+    <rdfs:label>1KZY:X-ray:2.50 A:A/B=95-289;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2BIM">
+    <sio:SIO_000008 rdf:nodeID="A50"/>
+    <rdfs:label>2BIM:X-ray:1.98 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A93">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2ADY</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A44">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2FEJ</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A87">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4HJE</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3IGK">
+    <sio:SIO_000008 rdf:nodeID="A39"/>
+    <rdfs:label>3IGK:X-ray:1.70 A:A=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3D06">
+    <sio:SIO_000008 rdf:nodeID="A94"/>
+    <rdfs:label>3D06:X-ray:1.20 A:A=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2X0V">
+    <sio:SIO_000008 rdf:nodeID="A60"/>
+    <rdfs:label>2X0V:X-ray:1.80 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1SAF</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2VUK">
+    <sio:SIO_000008 rdf:nodeID="A90"/>
+    <rdfs:label>2VUK:X-ray:1.50 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A85">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4AGL</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A95">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4BV2</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2J1X">
+    <sio:SIO_000008 rdf:nodeID="A96"/>
+    <rdfs:label>2J1X:X-ray:1.65 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A97">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3Q05</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A98">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4AGQ</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1PET</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2BIN">
+    <sio:SIO_000008 rdf:nodeID="A99"/>
+    <rdfs:label>2BIN:X-ray:1.90 A:A=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2ATA">
+    <sio:SIO_000008 rdf:nodeID="A100"/>
+    <rdfs:label>2ATA:X-ray:2.20 A:A/B/C/D=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4AGQ">
+    <sio:SIO_000008 rdf:nodeID="A98"/>
+    <rdfs:label>4AGQ:X-ray:1.42 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2X0W">
+    <sio:SIO_000008 rdf:nodeID="A101"/>
+    <rdfs:label>2X0W:X-ray:2.10 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2AHI">
+    <sio:SIO_000008 rdf:nodeID="A81"/>
+    <rdfs:label>2AHI:X-ray:1.85 A:A/B/C/D=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A102">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1HS5</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A103">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2J20</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2LY4">
+    <sio:SIO_000008 rdf:nodeID="A104"/>
+    <rdfs:label>2LY4:NMR:-:B=1-93;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2F1X">
+    <sio:SIO_000008 rdf:nodeID="A16"/>
+    <rdfs:label>2F1X:X-ray:2.30 A:A/B=359-368;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A101">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2X0W</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A96">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2J1X</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1YC5">
+    <sio:SIO_000008 rdf:nodeID="A54"/>
+    <rdfs:label>1YC5:X-ray:1.40 A:B=372-389;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3D05">
+    <sio:SIO_000008 rdf:nodeID="A21"/>
+    <rdfs:label>3D05:X-ray:1.70 A:A=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A105">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2AC0</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2OCJ">
+    <sio:SIO_000008 rdf:nodeID="A106"/>
+    <rdfs:label>2OCJ:X-ray:2.05 A:A/B/C/D=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2J1Y">
+    <sio:SIO_000008 rdf:nodeID="A8"/>
+    <rdfs:label>2J1Y:X-ray:1.69 A:A/B/C/D=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A107">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3IGL</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A108">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2XWR</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A106">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2OCJ</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3DAC">
+    <sio:SIO_000008 rdf:nodeID="A10"/>
+    <rdfs:label>3DAC:X-ray:1.80 A:B/P=17-37;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4AGN">
+    <sio:SIO_000008 rdf:nodeID="A109"/>
+    <rdfs:label>4AGN:X-ray:1.60 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2J1Z">
+    <sio:SIO_000008 rdf:nodeID="A72"/>
+    <rdfs:label>2J1Z:X-ray:1.80 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A109">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4AGN</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2GS0">
+    <sio:SIO_000008 rdf:nodeID="A79"/>
+    <rdfs:label>2GS0:NMR:-:B=20-73;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1DT7</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A110">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3PDH</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A78">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4IBY</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3ZME">
+    <sio:SIO_000008 rdf:nodeID="A55"/>
+    <rdfs:label>3ZME:X-ray:1.35 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3PDH">
+    <sio:SIO_000008 rdf:nodeID="A110"/>
+    <rdfs:label>3PDH:X-ray:1.80 A:D=372-389;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2ADY">
+    <sio:SIO_000008 rdf:nodeID="A93"/>
+    <rdfs:label>2ADY:X-ray:2.50 A:A/B=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A41">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2H4H</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A111">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1SAK</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3DAB">
+    <sio:SIO_000008 rdf:nodeID="A84"/>
+    <rdfs:label>3DAB:X-ray:1.90 A:B/D/F/H=15-29;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A91">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4AGP</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A57">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2PCX</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2L14">
+    <sio:SIO_000008 rdf:nodeID="A66"/>
+    <rdfs:label>2L14:NMR:-:B=13-61;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2YBG">
+    <sio:SIO_000008 rdf:nodeID="A28"/>
+    <rdfs:label>2YBG:X-ray:1.90 A:A/B/C/D=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4AGO">
+    <sio:SIO_000008 rdf:nodeID="A82"/>
+    <rdfs:label>4AGO:X-ray:1.45 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A112">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4HFZ</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A113">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3D08</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3IGL">
+    <sio:SIO_000008 rdf:nodeID="A107"/>
+    <rdfs:label>3IGL:X-ray:1.80 A:A=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1H26">
+    <sio:SIO_000008 rdf:nodeID="A3"/>
+    <rdfs:label>1H26:X-ray:2.24 A:E=376-386;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1SAL">
+    <sio:SIO_000008 rdf:nodeID="A9"/>
+    <rdfs:label>1SAL:NMR:-:A/B/C/D=319-360;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2X0U">
+    <sio:SIO_000008 rdf:nodeID="A2"/>
+    <rdfs:label>2X0U:X-ray:1.60 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A104">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2LY4</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4BV2">
+    <sio:SIO_000008 rdf:nodeID="A95"/>
+    <rdfs:label>4BV2:X-ray:3.30 A:E/H=376-388;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2XWR">
+    <sio:SIO_000008 rdf:nodeID="A108"/>
+    <rdfs:label>2XWR:X-ray:1.68 A:A/B=89-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A99">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2BIN</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A30">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2FOJ</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A45">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2B3G</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4IBW</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A77">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2BIO</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A89">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2BIP</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1SAK">
+    <sio:SIO_000008 rdf:nodeID="A111"/>
+    <rdfs:label>1SAK:NMR:-:A/B/C/D=319-360;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4HFZ">
+    <sio:SIO_000008 rdf:nodeID="A112"/>
+    <rdfs:label>4HFZ:X-ray:2.69 A:B/D=15-29;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A114">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4IBQ</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4IBS">
+    <sio:SIO_000008 rdf:nodeID="A74"/>
+    <rdfs:label>4IBS:X-ray:1.78 A:A/B/C/D=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1A1U">
+    <sio:SIO_000008 rdf:nodeID="A13"/>
+    <rdfs:label>1A1U:NMR:-:A/C=324-358;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3Q01</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1OLH</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A34">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2K8F</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3Q05">
+    <sio:SIO_000008 rdf:nodeID="A97"/>
+    <rdfs:label>3Q05:X-ray:2.40 A:A/B/C/D=94-355;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A115">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2WGX</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2H2F">
+    <sio:SIO_000008 rdf:nodeID="A68"/>
+    <rdfs:label>2H2F:X-ray:2.20 A:B=372-389;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3KMD">
+    <sio:SIO_000008 rdf:nodeID="A43"/>
+    <rdfs:label>3KMD:X-ray:2.15 A:A/B/C/D=92-291;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3D09">
+    <sio:SIO_000008 rdf:nodeID="A51"/>
+    <rdfs:label>3D09:X-ray:1.90 A:A=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A49">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4KVP</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1MA3</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1HS5">
+    <sio:SIO_000008 rdf:nodeID="A102"/>
+    <rdfs:label>1HS5:NMR:-:A/B=324-357;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A100">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2ATA</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3OQ5</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A92">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1KZY</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3LW1">
+    <sio:SIO_000008 rdf:nodeID="A116"/>
+    <rdfs:label>3LW1:X-ray:1.28 A:P=385-393;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2J11">
+    <sio:SIO_000008 rdf:nodeID="A53"/>
+    <rdfs:label>2J11:NMR:-:A/B/C/D=332-356;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A59">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1JSP</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A116">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3LW1</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4IBQ">
+    <sio:SIO_000008 rdf:nodeID="A114"/>
+    <rdfs:label>4IBQ:X-ray:1.80 A:A/B/C/D=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/UniProt:P04637">
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1A1U"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3Q05"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2XWR"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2BIO"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4AGP"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3Q01"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4KVP"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2J1W"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1YCQ"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1SAL"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1KZY"/>
+    <rdf:type rdf:resource="http://sadiframework.org/examples/uniprot2pdb.owl#AnnotatedUniProtRecord"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2WGX"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4IBW"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4HFZ"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2BIM"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1PET"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4AGN"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2AHI"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4IBS"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2H4H"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2B3G"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1SAF"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2X0W"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3LW1"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3D06"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4IBQ"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1HS5"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2FEJ"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2LY4"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1DT7"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3PDH"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1JSP"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2X0U"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1GZH"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2J0Z"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2L14"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1YC5"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3KMD"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2BIQ"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4BUZ"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2J1Y"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2VUK"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1YCS"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2J1Z"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2BIN"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4AGO"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4IBY"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3IGL"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4LO9"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2J11"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4IBU"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2FOO"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2F1X"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2H4J"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4IBV"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2ATA"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2H1L"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1OLH"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4LOF"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2H4F"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1PES"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4AGM"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1TUP"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2ADY"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1MA3"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2H59"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4BV2"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2Z5T"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2J21"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3D09"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1SAE"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1C26"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3D05"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1H26"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1UOL"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2GS0"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4IJT"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3DAC"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1XQH"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2H2F"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3TG5"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3Q06"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3TS8"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4IBZ"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2BIP"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2OCJ"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2PCX"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4AGQ"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2K8F"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3OQ5"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2J1X"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2YDR"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3KZ8"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3D0A"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1YCR"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3IGK"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2YBG"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2J10"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4IBT"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3SAK"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1OLG"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4LOE"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1SAK"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2FOJ"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4AGL"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2AC0"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3ZME"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3D07"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2Z5S"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2J20"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:4HJE"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3D08"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2X0V"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1AIE"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:1TSR"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:2H2D"/>
+    <sadi:has3DStructure rdf:resource="http://lsrn.org/PDB:3DAB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2FOO">
+    <sio:SIO_000008 rdf:nodeID="A1"/>
+    <rdfs:label>2FOO:X-ray:2.20 A:B=358-363;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A83">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2J1W</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3D08">
+    <sio:SIO_000008 rdf:nodeID="A113"/>
+    <rdfs:label>3D08:X-ray:1.40 A:A=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:4IJT">
+    <sio:SIO_000008 rdf:nodeID="A88"/>
+    <rdfs:label>4IJT:X-ray:1.78 A:A=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2WGX">
+    <sio:SIO_000008 rdf:nodeID="A115"/>
+    <rdfs:label>2WGX:X-ray:1.75 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2H2D">
+    <sio:SIO_000008 rdf:nodeID="A4"/>
+    <rdfs:label>2H2D:X-ray:1.70 A:B=372-389;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2J10">
+    <sio:SIO_000008 rdf:nodeID="A75"/>
+    <rdfs:label>2J10:NMR:-:A/B/C/D=326-356;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2J20">
+    <sio:SIO_000008 rdf:nodeID="A103"/>
+    <rdfs:label>2J20:X-ray:1.80 A:A/B=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3D07">
+    <sio:SIO_000008 rdf:nodeID="A86"/>
+    <rdfs:label>3D07:X-ray:2.20 A:A/B=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A94">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3D06</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:1TSR">
+    <sio:SIO_000008 rdf:nodeID="A12"/>
+    <rdfs:label>1TSR:X-ray:2.20 A:A/B/C=94-312;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:2AC0">
+    <sio:SIO_000008 rdf:nodeID="A105"/>
+    <rdfs:label>2AC0:X-ray:1.80 A:A/B/C/D=94-293;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A69">
+    <sio:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1YCQ</sio:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/PDB:3Q06">
+    <sio:SIO_000008 rdf:nodeID="A76"/>
+    <rdfs:label>3Q06:X-ray:3.20 A:A/B/C/D=96-354;</rdfs:label>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/PDB_Record"/>
+  </rdf:Description>
+</rdf:RDF>

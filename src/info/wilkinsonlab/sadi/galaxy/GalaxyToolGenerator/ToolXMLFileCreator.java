@@ -24,7 +24,7 @@ public class ToolXMLFileCreator {
 				+ service.getName() + "\">\n");
 		output.write("    <description>" + service.getDescription()
 				+ "</description>\n");
-		output.write("    <command>java -jar ${__tool_data_path__}/shared/jars/sadi_generic_client.jar "
+		output.write("    <command>java -Xmx2000M -Xms250M -jar ${__tool_data_path__}/shared/jars/sadi_generic_client.jar "
 				+ service.getURI() + " $input > $output 2>/dev/null</command>\n");
 		output.write("    <inputs>\n");
 		output.write("    	  <param name=\"input\" type=\"data\" label=\"RDF input for SADI service\"/>\n");

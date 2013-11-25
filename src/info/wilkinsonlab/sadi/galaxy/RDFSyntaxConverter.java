@@ -15,9 +15,8 @@ import com.hp.hpl.jena.util.FileManager;
 public class RDFSyntaxConverter {
 
 	/**
-	 * @param input RDF
-	 *            
-	 * @param format: one of N3, N-TRIPLE, TAB
+	 * @param input RDF           
+	 * @param format one of N3, N-TRIPLE, TAB
 	 *            
 	 */
 	public static void main(String[] args) {

@@ -1,0 +1,2 @@
+[ERROR] Error creating service object: 
+service description contains no such resource http://biordf.org:8080/cgi-bin/services/Dragon/getAlleleDescription.pl
