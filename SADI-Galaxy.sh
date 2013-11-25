@@ -3,14 +3,29 @@
 deploy_all(){
 
   # GET THE ARGUMENTS
-  QUERY=$1
+  QUERY_DIR=$1
   ENDPOINT=$2 
   
   # CREATE LOCAL TOOL_CONF.XML FILE
-  echo "INFO: Generating galaxy-dist/tool_conf.xml for the generic Galaxy tool, RDFSyntaxConverter and the SADI services defined in $QUERY"
+  echo "INFO: Generating galaxy-dist/tool_conf.xml for the generic Galaxy tool, RDFSyntaxConverter and the SADI services defined in $QUERY_DIR"
   echo ""
-  java -jar sadi_tool_generator.jar $QUERY $ENDPOINT galaxy-dist/tool_conf.xml galaxy-dist/tools/SADI/ 2 > log 
-
+  
+  echo "	<section name=\"SADI services\" id=\"SADI\">" > galaxy-dist/tool_conf.xml
+  echo "		<label text=\"SADI common utilities\" id=\"SADI-common-utilities\"/>" >> galaxy-dist/tool_conf.xml
+  echo "			<tool file=\"SADI/sadi_generic.xml\"/>" >> galaxy-dist/tool_conf.xml
+  echo "			<tool file=\"SADI/RDFSyntaxConverter.xml\"/>" >> galaxy-dist/tool_conf.xml
+  echo "		<label text=\"SADI services\" id=\"SADI-services\"/>" >> galaxy-dist/tool_conf.xml
+  
+  LIST=$QUERY_DIR"*"
+  
+  for QUERY in $LIST
+    do
+      echo "INFO: executing tool generator with $QUERY"
+      java -jar sadi_tool_generator.jar $QUERY $ENDPOINT galaxy-dist/tool_conf.xml galaxy-dist/tools/SADI/ 2 > log 
+    done
+  echo "	</section>" >> galaxy-dist/tool_conf.xml
+  echo "</toolbox>" >> galaxy-dist/tool_conf.xml
+  echo ""
 }
 
 deploy(){
@@ -41,7 +56,7 @@ else
   echo "ARGUMENTS:"
   echo "  Absolut path to your Galaxy installation: /home/mikel/galaxy-dist/"
   echo "  Attempt to edit Galaxy tool_conf.xml (edit) or not (no_edit). If no_edit is selected (recommended), copy the lines from the generated tool_conf.xml to the tool_conf.xml of your galaxy server: edit|no_edit"
-  echo "  (Optional) Path to SPARQL query (use this to tune the retrieved SADI services): simple_query.sparql"
+  echo "  (Optional) Path to dir qith SPARQL queries (use this to tune the retrieved SADI services): sparql/execute/"
   echo "  (Optional) SADI registry endpoint: http://dev.biordf.net/sparql/"
   echo ""
 fi

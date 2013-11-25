@@ -41,17 +41,17 @@ public class SADIGalaxyToolGenerator {
 			FileWriter tool_conf_file = null;
 
 			tool_conf_file = new FileWriter(tool_conf);
-			tool_conf_file
-					.write("\t<section name=\"SADI services\" id=\"SADI\">\n");
-			tool_conf_file
-					.write("\t\t<label text=\"SADI common utilities\" id=\"SADI-common-utilities\"/>\n");
-			tool_conf_file
-					.write("\t\t\t<tool file=\"SADI/sadi_generic.xml\"/>\n");
-			tool_conf_file.write("\t\t\t<tool file=\"SADI/RDF2TAB.xml\"/>\n");
-			tool_conf_file
-					.write("\t\t\t<tool file=\"SADI/RDFSyntaxConverter.xml\"/>\n");
-			tool_conf_file
-					.write("\t\t<label text=\"SADI services\" id=\"SADI-services\"/>\n");
+//			tool_conf_file
+//					.write("\t<section name=\"SADI services\" id=\"SADI\">\n");
+//			tool_conf_file
+//					.write("\t\t<label text=\"SADI common utilities\" id=\"SADI-common-utilities\"/>\n");
+//			tool_conf_file
+//					.write("\t\t\t<tool file=\"SADI/sadi_generic.xml\"/>\n");
+//			tool_conf_file.write("\t\t\t<tool file=\"SADI/RDF2TAB.xml\"/>\n");
+//			tool_conf_file
+//					.write("\t\t\t<tool file=\"SADI/RDFSyntaxConverter.xml\"/>\n");
+//			tool_conf_file
+//					.write("\t\t<label text=\"SADI services\" id=\"SADI-services\"/>\n");
 
 			Iterator results_iterator = results.iterator();
 			while (results_iterator.hasNext()) {
@@ -80,8 +80,8 @@ public class SADIGalaxyToolGenerator {
 				}
 			}
 
-			tool_conf_file.write("\t</section>\n");
-			tool_conf_file.write("</toolbox>\n");
+//			tool_conf_file.write("\t</section>\n");
+//			tool_conf_file.write("</toolbox>\n");
 			tool_conf_file.close();
 		} catch (IOException e) {
 			e.printStackTrace();

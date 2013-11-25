@@ -17,17 +17,17 @@ Usage
 
 The main function of SADI-Galaxy is to query a SADI registry and create, for each service, a Galaxy tool (a tool XML file, an entry in the `tool_conf.xml` file, and the needed jar files). Those files will be copied to the appropriate places in your Galaxy server (the `galaxy-dist` directory resembles an actual Galaxy server setting so it is self-explanatory); additionally, SADI-Galaxy can be configured to automatically (try to) edit the `tool_conf.xml` file of your Galaxy server.
 
-The script `SADI-Galaxy.sh` is the principal tool; you should stop Galaxy, run it, and start Galaxy again for the SADI services to appear as part of the Galaxy interface. It can be executed directly (See parameters list bellow) but a convenience script, `RUN-SADI-Galaxy.sh`, is included with example parameters. `SADI-Galaxy.sh` can be used to generate the following Galaxy tools:
+The script `SADI-Galaxy.sh` is the principal tool; you should stop Galaxy, run it, and start Galaxy again for the SADI services to appear as part of the Galaxy interface (The results of the process can be checked at the `log` file). It can be executed directly (See parameters list bellow) but a convenience script, `RUN-SADI-Galaxy.sh`, is included with example parameters. `SADI-Galaxy.sh` can be used to generate the following Galaxy tools:
 
 * SADI Generic. This tool accepts any SADI service URI and an RDF input, and executes the SADI service with the RDF input, producing output RDF.
 * RDF Syntax Converter. This tool converts an RDF/XML file to N3, N-Triple, or, (more importantly for Galaxy) a tab delimited, three column file (Subject-Predicate-Object).
-* A tool for each SADI service. This is the same as the generic tool, without having to provide the service URI, thus, only RDF input is needed.
+* A tool for each SADI service. This is the same as the generic tool, without having to provide the service URI, thus, only RDF input is needed. The URIs of these services are retrieved from a SADI registry using a SPARQL query, and each service status is tested: if it is not up and running, a Galaxy tool will not be generated for that service (this error will be shown in the log).
 
 Therefore `SADI-Galaxy.sh` can be executed to generate, depending on the parameters used:
 
 * Generic SADI caller and RDF Syntax Converter: 
 
-  * (Required) Absolut path to your Galaxy installation (For SADI-Galaxy to copy the necessary files in your Galaxy server): `/home/mikel/galaxy-dist/`
+  * (Required) Absolut path to your Galaxy installation (For SADI-Galaxy to copy the necessary files into your Galaxy server): `/home/mikel/galaxy-dist/`
   * (Required) Attempt to edit Galaxy tool_conf.xml (`edit`) or not (`no_edit`). If `no_edit` is selected (recommended), copy the lines from the newly generated `galaxy-dist/tool_conf.xml` to the actual `tool_conf.xml` of your galaxy server (e.g. `/home/mikel/galaxy-dist/tool_conf.xml`). 
 
 * Generic SADI caller, RDF Syntax Converter and a tool for each of the services retrieved from the registry:
@@ -41,11 +41,13 @@ So a typical execution to generate the basic system (no services from registry) 
 
 `./SADI-Galaxy.sh /home/mikel/galaxy-dist/ no_edit`
 
-If we want to generate the SADI services defined in file `sparql/simple_query.sparql`, querying the registry at `http://dev.biordf.net/sparql/`, without editing:
+This will copy the necessary files for the tools SADI Generic and RDF Syntax Converter to appear as part of Galaxy when restarted. If we want to generate the SADI services defined in file `sparql/simple_query.sparql`, querying the registry at `http://dev.biordf.net/sparql/`, without editing:
 
 `./SADI-Galaxy.sh /home/mikel/galaxy-dist/ no_edit sparql/simple_query.sparql http://dev.biordf.net/sparql/`
 
-In order to define a differnt SPARQL query, a new file can be created and passed as argument to `./SADI-Galaxy.sh`. The new SPARQL query must have a variable called `?s` representing SADI services, and (presumably) the following basic structure:
+This will generate the necessary files for each SADI service to appear as a Galaxy tool and appear in Galaxy when started (As well as SADI generic and RDF Syntax Converter).
+
+In order to define a different SPARQL query to retrieve a different set of SADI services, a new file can be created and passed as argument to `./SADI-Galaxy.sh`. The new SPARQL query must have a variable called `?s` representing SADI services, and (presumably) the following basic structure:
 
 ```
 PREFIX  sadi: <http://sadiframework.org/ontologies/sadi.owl#>
@@ -76,7 +78,17 @@ WHERE {
   }
 ```
 
-The query will be used by the Galaxy tool generator to retrieve SADI services and test that they are up and running. If that it is not the case, a Galaxy tool will not be generated. The results of the process can be checked at the `log` file. Also, `TEST_SADI_services.sh` can be used to test concrete SADI services.
+The script `GENERATE_SPARQL_queries.sh` can be used to generate pre-caned queries so that you only need to add values, see the script for details. For example if we want 
+
+Also, `TEST_SADI_services.sh` can be used to test concrete SADI services.
+
+In summary, the following tools are available:
+
+* `SADI-Galaxy.sh`: main tool, for generating SADI services.
+* `RUN-SADI-Galaxy.sh`: convenience script to run `SADI-Galaxy.sh`.
+* `GENERATE_SPARQL_queries.sh`: convenience tool for generating queries that can be consumed by `SADI-Galaxy.sh`.      
+* `TEST_RDFSyntaxConverter.sh`: test the RDF Syntax Converter. 
+* `TEST_SADI_services.sh`: test a SADI service by providing its URI and input RDF.
 
 Funding
 -------
