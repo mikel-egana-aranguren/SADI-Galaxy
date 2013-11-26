@@ -40,7 +40,7 @@ public class SADIGalaxyToolGenerator {
 
 			FileWriter tool_conf_file = null;
 
-			tool_conf_file = new FileWriter(tool_conf);
+			tool_conf_file = new FileWriter(tool_conf, true);
 //			tool_conf_file
 //					.write("\t<section name=\"SADI services\" id=\"SADI\">\n");
 //			tool_conf_file

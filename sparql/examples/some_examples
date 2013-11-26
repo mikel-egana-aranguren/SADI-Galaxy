@@ -1,0 +1,93 @@
+
+# !!! This examples have not been tested, added here as a guide !!!
+
+
+# sadi sparql queries on http://dev.biordf.net/sparql/
+# default graph:   http://sadiframework.org/registry/
+
+
+# ----------------------------------------------------------------------------
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX serv: <http://www.mygrid.org.uk/mygrid-moby-service#>
+PREFIX sadi:  <http://sadiframework.org/ontologies/sadi.owl#>
+PREFIX dc:  <http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl#>
+
+
+select  ?d ?p  ?o
+where {
+    <http://dev.biordf.net/~kawas/cgi-bin/getEcGeneComponentPartsRat> rdf:type serv:serviceDescription .
+    <http://dev.biordf.net/~kawas/cgi-bin/getEcGeneComponentPartsRat> sadi:decoratesWith ?d .
+    ?d ?p ?o
+}
+
+# ----------------------------------------------------------------------------
+
+select ?s  ?prop  ?range
+where {
+    ?s rdf:type serv:serviceDescription .
+    ?s serv:hasServiceDescriptionText ?d .
+    ?s sadi:decoratesWith ?thing .
+    ?thing owl:onProperty ?prop .
+    ?thing owl:someValuesFrom ?range
+}
+
+# ----------------------------------------------------------------------------
+
+SELECT  ?name ?desc ?input ?auth
+WHERE
+  { ?s rdf:type serv:serviceDescription .
+    ?s serv:providedBy ?auth .
+    ?s dc:identifier ?name .
+    ?s serv:hasServiceDescriptionText $desc .
+    ?s serv:hasOperation ?p .
+    ?p serv:inputParameter ?z .
+    ?z  serv:objectType ?input
+  }
+
+# ----------------------------------------------------------------------------
+
+SELECT ?name ?auth ?pub
+WHERE
+  { ?s rdf:type serv:serviceDescription .
+    ?s serv:providedBy  ?org .
+    ?org  dc:creator ?auth .
+    ?org  dc:publisher  ?pub .
+    ?s dc:identifier ?name .
+    ?s serv:hasServiceDescriptionText $desc .
+    ?s serv:hasOperation ?p .
+    ?p serv:inputParameter ?z .
+    ?z  serv:objectType ?input .
+    ?a  rdf:type ?type .
+  }
+
+# ----------------------------------------------------------------------------
+
+PREFIX  dc:   <http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl#>
+PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX  sadi: <http://sadiframework.org/ontologies/sadi.owl#>
+PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX  owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX  serv: <http://www.mygrid.org.uk/mygrid-moby-service#>
+
+SELECT count(?s)
+WHERE
+  { ?s rdf:type serv:serviceDescription .
+    ?s serv:hasServiceDescriptionText $desc .
+    optional {?s serv:providedBy  ?org .
+    ?org  dc:creator ?auth .
+    ?org  dc:publisher  ?pub} .
+    ?s serv:hasOperation ?p .
+    optional{?s dc:identifier ?nnn}.
+    ?s serv:hasOperation ?p .
+    ?p serv:inputParameter ?in .
+    ?in  serv:objectType ?input .
+    ?p serv:outputParameter ?out .
+    ?out  serv:objectType ?output
+
+
+  }
