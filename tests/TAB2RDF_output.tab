@@ -1,0 +1,6 @@
+<http://localhost/name> <http://localhost/age> "age" .
+<http://localhost/superviser> <http://localhost/supervises> <http://localhost/name> .
+<http://localhost/Micheal> <http://localhost/age> "42" .
+<http://localhost/John> <http://localhost/supervises> <http://localhost/Micheal> .
+<http://localhost/Anne> <http://localhost/age> "30" .
+<http://localhost/Micheal> <http://localhost/supervises> <http://localhost/Anne> .
