@@ -1,6 +1,13 @@
 *.class
 
-# Package Files #
-#*.jar 
-*.war
-*.ear
+log
+
+.project
+.classpath
+
+/galaxy-dist/tools/SADI/*.xml
+!/galaxy-dist/tools/SADI/sadi_generic.xml
+!/galaxy-dist/tools/SADI/RDFSyntaxConverter.xml
+
+
+

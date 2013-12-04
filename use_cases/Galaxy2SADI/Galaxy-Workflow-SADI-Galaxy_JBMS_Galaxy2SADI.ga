@@ -1,0 +1,234 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "", 
+    "format-version": "0.1", 
+    "name": "SADI-Galaxy JBMS Galaxy2SADI", 
+    "steps": {
+        "0": {
+            "annotation": "The input is this simple: \n\nhttp://lsrn.org/PDB:3SAK\thttp://purl.oclc.org/SADI/LSRN/PDB_Record", 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "The input is this simple: \n\nhttp://lsrn.org/PDB:3SAK\thttp://purl.oclc.org/SADI/LSRN/PDB_Record", 
+                    "name": "Tabular file (pdb2uniprot-input.tab)"
+                }
+            ], 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 171, 
+                "top": 218
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"Tabular file (pdb2uniprot-input.tab)\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": []
+        }, 
+        "1": {
+            "annotation": "Convert the tabs to actual columns Galaxy can recognise", 
+            "id": 1, 
+            "input_connections": {
+                "input": {
+                    "id": 0, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Convert", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 386, 
+                "top": 218
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "Convert characters1", 
+            "tool_state": "{\"__page__\": 0, \"convert_from\": \"\\\"s\\\"\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/group/galaxy-production-home/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"input\": \"null\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "2": {
+            "annotation": "Convert the tab file to an actual RDF SADI can consume", 
+            "id": 2, 
+            "input_connections": {
+                "input_file": {
+                    "id": 1, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Tab-to-RDF", 
+            "outputs": [
+                {
+                    "name": "output_file", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 387, 
+                "top": 325
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/sem4j/sparql_tools/tab2rdf/0.1", 
+            "tool_state": "{\"__page__\": 0, \"triples\": \"[{\\\"__index__\\\": 0, \\\"o_col\\\": {\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": \\\"2\\\"}, \\\"o_type\\\": \\\"False\\\", \\\"s_col\\\": {\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": \\\"1\\\"}, \\\"p_val\\\": \\\"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\\\"}]\", \"input_file\": \"null\", \"output_format\": \"\\\"ntriples\\\"\", \"namespace\": \"{\\\"choose_namespace\\\": \\\"none\\\", \\\"__current_case__\\\": 1}\", \"chromInfo\": \"\\\"/group/galaxy-production-home/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null}", 
+            "tool_version": "0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "3": {
+            "annotation": "Transform from N-Triples to RDF/XML (just for commodity, Jena should be able to consume N-Triples)", 
+            "id": 3, 
+            "input_connections": {
+                "input_file": {
+                    "id": 2, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "RDF Format", 
+            "outputs": [
+                {
+                    "name": "output_file", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 389, 
+                "top": 432
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/sem4j/sparql_tools/rapper/0.1", 
+            "tool_state": "{\"__page__\": 0, \"input_format\": \"\\\"ntriples\\\"\", \"input_file\": \"null\", \"output_format\": \"\\\"rdfxml\\\"\", \"chromInfo\": \"\\\"/group/galaxy-production-home/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null}", 
+            "tool_version": "0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "4": {
+            "annotation": "Get the UniProt ID from the PDB entry with the SADI service pdb2uniprot", 
+            "id": 4, 
+            "input_connections": {
+                "input": {
+                    "id": 3, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "SADI services generic caller", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "text"
+                }
+            ], 
+            "position": {
+                "left": 643, 
+                "top": 220
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "sadi_generic", 
+            "tool_state": "{\"url\": \"\\\"http://sadiframework.org/examples/pdb2uniprot\\\"\", \"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/group/galaxy-production-home/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "0.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "5": {
+            "annotation": "Get all the UniProt info for the entry obtained in the prior step with the SADI service uniprotInfo", 
+            "id": 5, 
+            "input_connections": {
+                "input": {
+                    "id": 4, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "SADI services generic caller", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "text"
+                }
+            ], 
+            "position": {
+                "left": 648, 
+                "top": 426
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "sadi_generic", 
+            "tool_state": "{\"url\": \"\\\"http://sadiframework.org/examples/uniprotInfo\\\"\", \"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/group/galaxy-production-home/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "0.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "6": {
+            "annotation": "Convert the result from SADI to tab", 
+            "id": 6, 
+            "input_connections": {
+                "input": {
+                    "id": 5, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "RDF Syntax Converter", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "text"
+                }
+            ], 
+            "position": {
+                "left": 928, 
+                "top": 223
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "RDFSyntaxConverter", 
+            "tool_state": "{\"__page__\": 0, \"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/group/galaxy-production-home/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"format\": \"\\\"TAB\\\"\"}", 
+            "tool_version": "0.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "7": {
+            "annotation": "Perform an SPARQL query against the SADI result and obtain concrete information (e.g. the sequence)", 
+            "id": 7, 
+            "input_connections": {
+                "ontology": {
+                    "id": 5, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Execute an SPARQL query against an RDF file", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "text"
+                }
+            ], 
+            "position": {
+                "left": 930, 
+                "top": 550
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "SPARQLGalaxy", 
+            "tool_state": "{\"query_type\": \"{\\\"choose_input_query_type\\\": \\\"paste_query\\\", \\\"pasted_query\\\": \\\"SELECT ?o\\\\nWHERE {\\\\n ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semanticscience.org/resource/SIO_010015>.\\\\n ?s <http://semanticscience.org/resource/SIO_000300> ?o.\\\\n}\\\", \\\"__current_case__\\\": 1}\", \"__rerun_remap_job_id__\": null, \"ontology\": \"null\", \"chromInfo\": \"\\\"/group/galaxy-production-home/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }
+    }
+}

@@ -16,7 +16,7 @@
 	  
 	  **What it does**
 	  
-	  Given an RDF input and a SADI service URL, infers whether the RDF complies with the service's input OWL Class and if so executes it, obtaining an ouput RDF from the SADI service.
+	  Given an RDF input and a SADI service URL, infers whether the RDF complies with the service's input OWL Class and if so executes it, obtaining an ouput RDF from the SADI service. 
 	  
 	  **About**
 	  
