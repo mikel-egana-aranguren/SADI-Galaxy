@@ -1,0 +1,5 @@
+[paths]
+default = http://mikel-egana-aranguren@toolshed.g2.bx.psu.edu/repos/mikel-egana-aranguren/sadi_generic
+
+[ui]
+username = Mikel Egana Aranguren <mikel-egana-aranguren@toolshed.g2.bx.psu.edu>

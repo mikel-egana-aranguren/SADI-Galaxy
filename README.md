@@ -11,6 +11,7 @@ More information:
 * SADI: http://sadiframework.org/ 
 * Galaxy: http://galaxyproject.org/
 * A public Galaxy instance with SADI services pre-installed: http://biordf.org:8983/
+* A galaxy page containing use cases: http://biordf.org:8983/u/mikel-egana-aranguren/p/sadi-galaxy-jbms-use-cases
 
 Usage
 -----

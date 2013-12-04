@@ -1,0 +1,300 @@
+Subject	Predicate	Object
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#rest	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#rest	http://www.w3.org/2000/01/rdf-schema#domain	http://www.w3.org/1999/02/22-rdf-syntax-ns#List
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#rest	http://www.w3.org/2000/01/rdf-schema#range	http://www.w3.org/1999/02/22-rdf-syntax-ns#List
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#rest	http://www.w3.org/2000/01/rdf-schema#subPropertyOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#rest
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#List	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#List	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate	http://www.w3.org/2000/01/rdf-schema#domain	http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate	http://www.w3.org/2000/01/rdf-schema#subPropertyOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Property	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Property	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#label	http://www.w3.org/2000/01/rdf-schema#range	http://www.w3.org/2000/01/rdf-schema#Literal
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#Class	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/2000/01/rdf-schema#Class	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#range	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/2000/01/rdf-schema#Resource	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#subject	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#subject	http://www.w3.org/2000/01/rdf-schema#domain	http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#subject	http://www.w3.org/2000/01/rdf-schema#subPropertyOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#subject
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Datatype
+
+http://www.w3.org/2000/01/rdf-schema#comment	http://www.w3.org/2000/01/rdf-schema#range	http://www.w3.org/2000/01/rdf-schema#Literal
+
+http://www.w3.org/2000/01/rdf-schema#range	http://www.w3.org/2000/01/rdf-schema#domain	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/2000/01/rdf-schema#range	http://www.w3.org/2000/01/rdf-schema#range	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/2000/01/rdf-schema#subPropertyOf	http://www.w3.org/2000/01/rdf-schema#domain	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/2000/01/rdf-schema#subPropertyOf	http://www.w3.org/2000/01/rdf-schema#range	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#object	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#object	http://www.w3.org/2000/01/rdf-schema#domain	http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#object	http://www.w3.org/2000/01/rdf-schema#subPropertyOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#object
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#nil	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#List
+
+http://www.w3.org/2000/01/rdf-schema#domain	http://www.w3.org/2000/01/rdf-schema#domain	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/2000/01/rdf-schema#domain	http://www.w3.org/2000/01/rdf-schema#range	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/2000/01/rdf-schema#Literal	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/2000/01/rdf-schema#Literal	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#first	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#first	http://www.w3.org/2000/01/rdf-schema#domain	http://www.w3.org/1999/02/22-rdf-syntax-ns#List
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#first	http://www.w3.org/2000/01/rdf-schema#subPropertyOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#first
+
+http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#domain	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#range	http://www.w3.org/2000/01/rdf-schema#Class
+
+-11c082ef:1429f030f38:-7ff6	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://semanticscience.org/resource/SIO_000116
+
+-11c082ef:1429f030f38:-7ff6	http://semanticscience.org/resource/SIO_000300	Phosphoprotein p53^^http://www.w3.org/2001/XMLSchema#string
+
+http://lsrn.org/UniProt:P04637	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://sadiframework.org/examples/uniprotInfo.owl#AnnotatedUniProtRecord
+
+http://lsrn.org/UniProt:P04637	http://sadiframework.org/ontologies/properties.owl#hasSequence	-11c082ef:1429f030f38:-7ff4
+
+http://lsrn.org/UniProt:P04637	http://semanticscience.org/resource/SIO_000008	-11c082ef:1429f030f38:-7ffb
+
+http://lsrn.org/UniProt:P04637	http://sadiframework.org/ontologies/properties.owl#fromOrganism	-11c082ef:1429f030f38:-7ffa
+
+http://lsrn.org/UniProt:P04637	http://sadiframework.org/ontologies/properties.owl#hasName	-11c082ef:1429f030f38:-7ff5
+
+http://lsrn.org/UniProt:P04637	http://sadiframework.org/ontologies/properties.owl#hasName	-11c082ef:1429f030f38:-7ff6
+
+http://lsrn.org/UniProt:P04637	http://sadiframework.org/ontologies/properties.owl#hasName	-11c082ef:1429f030f38:-7ffc
+
+http://lsrn.org/UniProt:P04637	http://sadiframework.org/ontologies/properties.owl#hasName	-11c082ef:1429f030f38:-7ff7
+
+-11c082ef:1429f030f38:-7ff4	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://semanticscience.org/resource/SIO_010015
+
+-11c082ef:1429f030f38:-7ff4	http://semanticscience.org/resource/SIO_000300	MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD^^http://www.w3.org/2001/XMLSchema#string
+
+-11c082ef:1429f030f38:-7ff9	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://purl.oclc.org/SADI/LSRN/taxon_Identifier
+
+-11c082ef:1429f030f38:-7ff9	http://semanticscience.org/resource/SIO_000300	9606^^http://www.w3.org/2001/XMLSchema#string
+
+-11c082ef:1429f030f38:-7ffc	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://semanticscience.org/resource/SIO_000116
+
+-11c082ef:1429f030f38:-7ffc	http://semanticscience.org/resource/SIO_000300	Antigen NY-CO-13^^http://www.w3.org/2001/XMLSchema#string
+
+-11c082ef:1429f030f38:-7ff7	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://semanticscience.org/resource/SIO_000117
+
+-11c082ef:1429f030f38:-7ff7	http://semanticscience.org/resource/SIO_000300	Cellular tumor antigen p53^^http://www.w3.org/2001/XMLSchema#string
+
+-11c082ef:1429f030f38:-7ffa	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://purl.oclc.org/SADI/LSRN/taxon_Record
+
+-11c082ef:1429f030f38:-7ffa	http://sadiframework.org/ontologies/properties.owl#hasName	-11c082ef:1429f030f38:-7ff8
+
+-11c082ef:1429f030f38:-7ffa	http://semanticscience.org/resource/SIO_000008	-11c082ef:1429f030f38:-7ff9
+
+-11c082ef:1429f030f38:-7ff5	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://semanticscience.org/resource/SIO_000116
+
+-11c082ef:1429f030f38:-7ff5	http://semanticscience.org/resource/SIO_000300	Tumor suppressor p53^^http://www.w3.org/2001/XMLSchema#string
+
+-11c082ef:1429f030f38:-7ff8	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://semanticscience.org/resource/SIO_000120
+
+-11c082ef:1429f030f38:-7ff8	http://semanticscience.org/resource/SIO_000300	Homo sapiens^^http://www.w3.org/2001/XMLSchema#string
+
+-11c082ef:1429f030f38:-7ffb	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://semanticscience.org/resource/SIO_000105
+
+-11c082ef:1429f030f38:-7ffb	http://semanticscience.org/resource/SIO_000300	TP53^^http://www.w3.org/2001/XMLSchema#string
+
+http://www.w3.org/2000/01/rdf-schema#Container	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Container
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Property	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Container
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement
+
+http://www.w3.org/2000/01/rdf-schema#Literal	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Literal
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#List	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#List
+
+http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty
+
+http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/2000/01/rdf-schema#Resource	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#Class	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Container
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Container
+
+http://www.w3.org/2000/01/rdf-schema#Datatype	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Datatype
+
+http://www.w3.org/2000/01/rdf-schema#Datatype	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#Datatype	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/2000/01/rdf-schema#isDefinedBy	http://www.w3.org/2000/01/rdf-schema#subPropertyOf	http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+
+http://www.w3.org/2000/01/rdf-schema#isDefinedBy	http://www.w3.org/2000/01/rdf-schema#subPropertyOf	http://www.w3.org/2000/01/rdf-schema#seeAlso
+
+http://www.w3.org/2000/01/rdf-schema#seeAlso	http://www.w3.org/2000/01/rdf-schema#subPropertyOf	http://www.w3.org/2000/01/rdf-schema#seeAlso
+
+http://www.w3.org/2000/01/rdf-schema#Container	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/2000/01/rdf-schema#Datatype	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/2000/01/rdf-schema#isDefinedBy	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/2000/01/rdf-schema#seeAlso	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/2000/01/rdf-schema#domain	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/2000/01/rdf-schema#subPropertyOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/2000/01/rdf-schema#range	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/2000/01/rdf-schema#comment	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://www.w3.org/2000/01/rdf-schema#label	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+
+http://semanticscience.org/resource/SIO_010015	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://sadiframework.org/examples/uniprotInfo.owl#AnnotatedUniProtRecord	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://purl.oclc.org/SADI/LSRN/taxon_Identifier	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://purl.oclc.org/SADI/LSRN/taxon_Record	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://semanticscience.org/resource/SIO_000116	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://semanticscience.org/resource/SIO_000117	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://semanticscience.org/resource/SIO_000105	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://semanticscience.org/resource/SIO_000120	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Class
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#nil	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#first	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#object	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#subject	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#rest	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#isDefinedBy	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#seeAlso	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#domain	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#subPropertyOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#range	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#comment	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#label	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Property	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#List	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#Resource	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#Class	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#Literal	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#Container	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://www.w3.org/2000/01/rdf-schema#Datatype	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://semanticscience.org/resource/SIO_010015	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://sadiframework.org/examples/uniprotInfo.owl#AnnotatedUniProtRecord	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://purl.oclc.org/SADI/LSRN/taxon_Identifier	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://purl.oclc.org/SADI/LSRN/taxon_Record	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://semanticscience.org/resource/SIO_000116	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://semanticscience.org/resource/SIO_000117	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://semanticscience.org/resource/SIO_000105	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
+http://semanticscience.org/resource/SIO_000120	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2000/01/rdf-schema#Resource
+
