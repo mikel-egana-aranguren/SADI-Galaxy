@@ -6,7 +6,7 @@ PREFIX  owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX  serv: <http://www.mygrid.org.uk/mygrid-moby-service#>
 
-SELECT ?s
+SELECT DISTINCT ?s
 WHERE { 
 	  ?s rdf:type serv:serviceDescription .
 	  ?s rdf:type  sadi:Service .
@@ -23,3 +23,9 @@ WHERE {
 	  ?op serv:outputParameter ?outputP .
 	  ?outputP serv:objectType ?output
   }
+  
+  
+  
+  
+  
+  

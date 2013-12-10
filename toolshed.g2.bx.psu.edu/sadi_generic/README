@@ -4,7 +4,8 @@ ABOUT
 This is a client for SADI services. A SADI service consumes and ouputs
 RDF. Therefore, if you provide the service URI and a correct RDF input, 
 this client will infer if the RDF is really compliant with the service 
-and submit it, obtaining the output RDF.
+and submit it, obtaining the output RDF (Another tool, RDFSyntaxConverter,
+is included to convert RDF to tab delimited files and other RDF syntaxes).
 
 This client is part of a larger project that provides SADI services as 
 Galaxy tools, SADI-Galaxy. 
@@ -23,22 +24,23 @@ Download and uncompress anywhere you like, and then:
 
 1.- Stop Galaxy.
 
-2.- Copy sadi_generic.jar galaxy-dist/tool-data/shared/jars/
+2.- Copy sadi_generic.jar and RDFSyntaxConverter.jar to galaxy-dist/tool-data/shared/jars/
  
 3.- Create directory galaxy-dist/tools/SADI/
 
-4.- Copy sadi_generic.xml to galaxy-dist/tools/SADI/
+4.- Copy sadi_generic.xml and RDFSyntaxConverter.xml to galaxy-dist/tools/SADI/
 
 5.- Add the following lines to /galaxy-dist/tool_conf.xml:
 
         <section name="SADI services" id="SADI">
                 <tool file="SADI/sadi_generic.xml"/>
+                <tool file="SADI/RDFSyntaxConverter.xml.xml"/>
 	</section>
 
 6.- Start Galaxy.
 
 (You can also install automatically from the tool shed but make 
-sure to copy the jar to right place)
+sure to copy the jars to right place)
 
 
 
