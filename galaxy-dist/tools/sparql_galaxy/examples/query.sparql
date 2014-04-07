@@ -1,0 +1,4 @@
+SELECT ?o ?s
+WHERE {
+ ?s <http://semanticscience.org/resource/SIO_000300> ?o.
+}
