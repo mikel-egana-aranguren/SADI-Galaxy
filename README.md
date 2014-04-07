@@ -28,7 +28,7 @@ Therefore `SADI-Galaxy.sh` can be executed to generate, depending on the paramet
 
 * Generic SADI caller and RDF Syntax Converter: 
 
-  * (Required) Absolut path to your Galaxy installation (For SADI-Galaxy to copy the necessary files into your Galaxy server): `/home/mikel/galaxy-dist/`
+  * (Required) Absolute path to your Galaxy installation (For SADI-Galaxy to copy the necessary files into your Galaxy server): `/home/mikel/galaxy-dist/`
   * (Required) Attempt to edit Galaxy tool_conf.xml (`edit`) or not (`no_edit`). If `no_edit` is selected (recommended), copy the lines from the newly generated `galaxy-dist/tool_conf.xml` to the actual `tool_conf.xml` of your galaxy server (e.g. `/home/mikel/galaxy-dist/tool_conf.xml`). 
 
 * Generic SADI caller, RDF Syntax Converter and a tool for each of the services retrieved from the registry:
