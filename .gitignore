@@ -9,6 +9,6 @@ log
 !/galaxy-dist/tools/SADI/sadi_generic.xml
 !/galaxy-dist/tools/SADI/RDFSyntaxConverter.xml
 
-
-
 /bin
+
+/galaxy-dist/tools/sparql_galaxy/.hg/
