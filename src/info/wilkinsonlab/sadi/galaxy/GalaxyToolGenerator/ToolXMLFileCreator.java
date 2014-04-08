@@ -24,13 +24,13 @@ public class ToolXMLFileCreator {
 				+ service.getName() + "\">\n");
 		output.write("    <description>" + service.getDescription()
 				+ "</description>\n");
-		output.write("    <command>java -Xmx2000M -Xms250M -jar ${__tool_data_path__}/shared/jars/sadi_generic_client.jar "
-				+ service.getURI() + " $input > $output 2>/dev/null</command>\n");
+		output.write("    <command>${__tool_data_path__}/shared/errwrap.sh java -Xmx2000M -Xms250M -jar ${__tool_data_path__}/shared/jars/sadi_generic_client.jar "
+				+ service.getURI() + " $input > $output </command>\n");
 		output.write("    <inputs>\n");
-		output.write("    	  <param name=\"input\" type=\"data\" label=\"RDF input for SADI service\"/>\n");
+		output.write("    	  <param name=\"input\" type=\"data\" format=\"rdf\" label=\"RDF input for SADI service\"/>\n");
 		output.write("    </inputs>\n");
 		output.write("    <outputs>\n");
-		output.write("        <data format=\"text\" name=\"output\"/>\n");
+		output.write("        <data format=\"rdf\" name=\"output\"/>\n");
 		output.write("    </outputs>\n");
 		output.write("    <help>\n\n");
 		output.write("    **What it does**\n\n");

@@ -1,13 +1,10 @@
 <tool id="RDFSyntaxConverter" name="RDF Syntax Converter" version="0.0.1">
 	<description>Converts RDF to N3, N-TRIPLE or TAB format</description>
 	
-	<!-- for debugging remove 2>/dev/null -->
-	<!-- normally it will be executed in a server so memory wise it should be OK -->
-	
-	<command>java -Xmx2000M -Xms250M -jar ${__tool_data_path__}/shared/jars/RDFSyntaxConverter.jar $input $format > $output 2>/dev/null</command>
+	<command>${__tool_data_path__}/shared/errwrap.sh java -Xmx2000M -Xms250M -jar ${__tool_data_path__}/shared/jars/RDFSyntaxConverter.jar $input $format > $output </command>
 		
 	<inputs>
-		<param name="input" type="data" label="RDF input file"/>	
+		<param name="input" type="data" format="rdf" label="RDF input file"/>	
 		<param name="format" type="select" label="Choose RDF output format">
 			<option value="N3">N3</option>
 			<option value="N-TRIPLE">N-TRIPLE</option>

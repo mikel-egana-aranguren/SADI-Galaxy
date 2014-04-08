@@ -112,4 +112,4 @@ This will generate a query for each publisher. Finally, `TEST_SADI_services.sh` 
 Funding
 -------
 
-Mikel Egaña Aranguren is funded by the Marie Curie Cofund programme (FP7) of the European Union through the UPM (Spain).
+Mikel Egaña Aranguren is funded by the Marie Curie Cofund programme (FP7) of the European Union through the UPM (Spain), and by the Genomic Resources group of the UPV-EHU (Spain).
