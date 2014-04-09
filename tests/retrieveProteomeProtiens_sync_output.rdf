@@ -1,2 +1,0 @@
-[ERROR] Error invoking service: 
-class http://biordf.org:8080/sadi_service_ontologies/SignalP_EUK_simple.owl/retrieveProteomeProtiens_input is not defined
