@@ -1,0 +1,64 @@
+<tool id="sadi_generic" name="SADI services generic caller" version="0.0.1">
+	<description>Send any input RDF to any SADI service</description>
+	
+	<command>${__tool_data_path__}/shared/errwrap.sh java -Xmx2000M -Xms250M -jar ${__tool_data_path__}/shared/jars/sadi_generic_client.jar $url $input > $output </command>
+		
+	<inputs>
+		<param name="url" type="text" size="250" label="Service URL">
+		  <sanitizer sanitize="False"/><!-- Disable sanitizer for URLs with e.g. tilde character -->
+		</param>
+		<param name="input" type="data" format="rdf" label="RDF input for SADI service"/>	
+	</inputs>
+	<outputs>
+		<data format="rdf" name="output" />
+	</outputs>
+	<tests>
+		<test>
+			<param name="url" type="text" size="200" value="http://sadiframework.org/examples/hello" label="Service URL"/>
+			<param name="input" type="data" format="rdf" label="hello-input.rdf"/>
+			<!--<output name="output" file="test_hello_output.rdf" ftype="rdf"/>-->
+			
+			<output name="output">
+				<assert_contents>
+					<is_valid_xml />
+					<has_text text="http://sadiframework.org/examples/hello.owl#GreetedIndividual" />
+				</assert_contents>
+			</output>
+		</test>
+		<test>
+			<param name="url" type="text" size="200" value="http://sadiframework.org/examples/pdb2uniprot" label="Service URL"/>
+			<param name="input" type="data" format="rdf" label="pdb2uniprot-input.rdf"/>
+<!-- 			<output name="output" file="" ftype="rdf"/> -->
+		</test>
+		<test>
+			<param name="url" type="text" size="200" value="http://sadiframework.org/examples/uniprotInfo" label="Service URL"/>
+			<param name="input" type="data" format="rdf" label="uniprotInfot-input.rdf"/>
+<!-- 			<output name="output" file="" ftype="rdf"/> -->
+		</test>
+		<test>
+			<param name="url" type="text" size="200" value="http://dev.biordf.net/~kawas/cgi-bin/getdbSNPRecordByUniprotID" label="Service URL"/>
+			<param name="input" type="data" format="rdf" label="hello-input-localhost-SADI.rdf"/>
+<!-- 			<output name="output" file="" ftype="rdf"/> -->
+		</test>
+		<test>
+			<param name="url" type="text" size="200" value="http://localhost:9090#" label="Service URL"/>
+			<param name="input" type="data" format="rdf" label="hello-input-localhost-SADI.rdf"/>
+			<output name="output" file="hello-output-localhost-SADI.rdf" ftype="rdf"/>
+		</test>
+		
+		
+		
+	</tests>
+	
+	<help>
+	  
+	  **What it does**
+	  
+	  Given an RDF input and a SADI service URL, infers whether the RDF complies with the service's input OWL Class and if so executes it, obtaining an ouput RDF from the SADI service. 
+	  
+	  **About**
+	  
+	  More information and contact: http://github.com/mikel-egana-aranguren/SADI-Galaxy
+	  
+	</help>
+</tool>

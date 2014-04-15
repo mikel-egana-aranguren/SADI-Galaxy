@@ -1,0 +1,46 @@
+<tool id="RDFSyntaxConverter" name="RDF Syntax Converter" version="0.0.1">
+	<description>Converts RDF to N3, N-TRIPLE or TAB format</description>
+	
+	<command>${__tool_data_path__}/shared/errwrap.sh java -Xmx2000M -Xms250M -jar ${__tool_data_path__}/shared/jars/RDFSyntaxConverter.jar $input $format > $output </command>
+		
+	<inputs>
+		<param name="input" type="data" format="rdf" label="RDF input file"/>	
+		<param name="format" type="select" label="Choose RDF output format">
+			<option value="N3">N3</option>
+			<option value="N-TRIPLE">N-TRIPLE</option>
+			<option value="TAB" selected="true">Tab separated columns</option>
+		</param>
+	</inputs>
+	<outputs>
+		<data format="text" name="output" />
+	</outputs>
+	
+	 <tests>
+		<test>
+			<param name="input" value="hello-input.rdf"/>
+			<param name="format" value="N3"/>
+			<output name="output" file="RDFSyntaxConverter_N3_test_hello_output"/>
+		</test>
+		<test>
+			<param name="input" value="hello-input.rdf"/>
+			<param name="format" value="N-TRIPLE"/>
+			<output name="output" file="RDFSyntaxConverter_N-TRIPLE_test_hello_output"/>
+		</test>
+		<test>
+			<param name="input" value="hello-input.rdf"/>
+			<param name="format" value="TAB"/>
+			<output name="output" file="RDFSyntaxConverter_TAB_test_hello_output"/>
+		</test>
+	</tests>
+	<help>
+	  
+	  **What it does** 
+	  
+	  Given an RDF input file, it converts it to N3, N-TRIPLE or TAB (A tab delimited file containing three columns -subjects, predicates and objects- for other Galaxy tools to consume).
+	  
+	  **About**
+	  
+	  More information and contact: http://github.com/mikel-egana-aranguren/SADI-Galaxy
+	  
+	</help>
+</tool>
