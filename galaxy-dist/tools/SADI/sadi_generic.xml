@@ -29,16 +29,37 @@
 			<param name="url" type="text" size="200" value="http://sadiframework.org/examples/pdb2uniprot" label="Service URL"/>
 			<param name="input" type="data" format="rdf" label="pdb2uniprot-input.rdf"/>
 <!-- 			<output name="output" file="" ftype="rdf"/> -->
+
+			<output name="output">
+				<assert_contents>
+					<is_valid_xml />
+					<has_text text="http://sadiframework.org/examples/pdb2uniprot.owl#OutputClass" />
+				</assert_contents>
+			</output>
 		</test>
 		<test>
 			<param name="url" type="text" size="200" value="http://sadiframework.org/examples/uniprotInfo" label="Service URL"/>
 			<param name="input" type="data" format="rdf" label="uniprotInfot-input.rdf"/>
 <!-- 			<output name="output" file="" ftype="rdf"/> -->
+
+			<output name="output">
+				<assert_contents>
+					<is_valid_xml />
+					<has_text text="http://sadiframework.org/examples/uniprotInfo.owl#AnnotatedUniProtRecord" />
+				</assert_contents>
+			</output>
 		</test>
 		<test>
 			<param name="url" type="text" size="200" value="http://dev.biordf.net/~kawas/cgi-bin/getdbSNPRecordByUniprotID" label="Service URL"/>
-			<param name="input" type="data" format="rdf" label="hello-input-localhost-SADI.rdf"/>
+			<param name="input" type="data" format="rdf" label="dbSNPUniprotInput.rdf"/>
 <!-- 			<output name="output" file="" ftype="rdf"/> -->
+
+			<output name="output">
+				<assert_contents>
+					<is_valid_xml />
+					<has_text text="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier" />
+				</assert_contents>
+			</output>
 		</test>
 		<test>
 			<param name="url" type="text" size="200" value="http://localhost:9090#" label="Service URL"/>

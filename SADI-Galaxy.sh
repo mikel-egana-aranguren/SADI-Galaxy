@@ -15,6 +15,7 @@ deploy_all(){
   echo "		<label text=\"SADI common utilities\" id=\"SADI-common-utilities\"/>" >> galaxy-dist/tool_conf.xml
   echo "			<tool file=\"SADI/sadi_generic.xml\"/>" >> galaxy-dist/tool_conf.xml
   echo "			<tool file=\"SADI/RDFSyntaxConverter.xml\"/>" >> galaxy-dist/tool_conf.xml
+  echo "			<tool file=\"SADI/mergeRDFgraphs.xml\"/>" >> galaxy-dist/tool_conf.xml
   echo "		<label text=\"SADI services\" id=\"SADI-services\"/>" >> galaxy-dist/tool_conf.xml
   
   LIST=$QUERY_DIR"*"
@@ -37,6 +38,7 @@ deploy(){
       echo "		<label text=\"SADI common utilities\" id=\"SADI-common-utilities\"/>" >> galaxy-dist/tool_conf.xml
       echo "			<tool file=\"SADI/sadi_generic.xml\"/>" >> galaxy-dist/tool_conf.xml
       echo "			<tool file=\"SADI/RDFSyntaxConverter.xml\"/>" >> galaxy-dist/tool_conf.xml
+      echo "			<tool file=\"SADI/mergeRDFgraphs.xml\"/>" >> galaxy-dist/tool_conf.xml
       echo "	</section>" >> galaxy-dist/tool_conf.xml
       echo "</toolbox>" >> galaxy-dist/tool_conf.xml
 }

@@ -1,0 +1,8 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ns1="http://sadiframework.org/examples/hello.owl#" > 
+  <rdf:Description rdf:about="http://sadiframework.org/examples/hello-input.rdf#1">
+    <ns1:greeting>Hello, Guy Incognito</ns1:greeting>
+    <rdf:type rdf:resource="http://sadiframework.org/examples/hello.owl#GreetedIndividual"/>
+  </rdf:Description>
+</rdf:RDF>

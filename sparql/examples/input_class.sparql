@@ -7,9 +7,9 @@ PREFIX  serv: <http://www.mygrid.org.uk/mygrid-moby-service#>
 
 SELECT ?s
 WHERE { 
-	  ?s rdf:type serv:serviceDescription .
-	  ?s rdf:type  sadi:Service .
-          ?s  serv:hasOperation ?op .
-          ?op serv:inputParameter ?input .
-          ?input serv:objectType <http://purl.oclc.org/SADI/LSRN/UniProt_Record> 
-  }
+  ?s rdf:type serv:serviceDescription .
+  ?s rdf:type  sadi:Service .
+  ?s  serv:hasOperation ?op .
+  ?op serv:inputParameter ?input .
+  ?input serv:objectType <http://purl.oclc.org/SADI/LSRN/UniProt_Record> 
+}
