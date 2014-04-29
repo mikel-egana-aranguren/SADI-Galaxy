@@ -8,7 +8,7 @@ deploy_all(){
   
   # CREATE LOCAL TOOL_CONF.XML FILE
   echo ""
-  echo "INFO: Generating galaxy-dist/tool_conf.xml for the generic Galaxy tool, RDFSyntaxConverter and the SADI services defined in $QUERY_DIR"
+  echo "INFO: Generating galaxy-dist/tool_conf.xml for SADI-Galaxy generic tool, RDF Syntax Converter, Merge RDF Graphs and the SADI services defined in $QUERY_DIR"
   echo ""
   
   echo "	<section name=\"SADI services\" id=\"SADI\">" > galaxy-dist/tool_conf.xml
@@ -32,7 +32,7 @@ deploy_all(){
 
 deploy(){
       echo ""
-      echo "INFO: Generating galaxy-dist/tool_conf.xml for the generic Galaxy tool, RDF2TAB and RDFSyntaxConverter"
+      echo "INFO: Generating galaxy-dist/tool_conf.xml for the SADI-Galaxy generic tool, RDF Syntax Converter and Merge RDF Graphs"
       echo ""
       echo "	<section name=\"SADI services\" id=\"SADI\">" > galaxy-dist/tool_conf.xml
       echo "		<label text=\"SADI common utilities\" id=\"SADI-common-utilities\"/>" >> galaxy-dist/tool_conf.xml

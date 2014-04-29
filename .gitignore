@@ -6,6 +6,7 @@ log
 .classpath
 
 /galaxy-dist/tools/SADI/*.xml
+!/galaxy-dist/tools/SADI/mergeRDFgraphs.xml
 !/galaxy-dist/tools/SADI/sadi_generic.xml
 !/galaxy-dist/tools/SADI/RDFSyntaxConverter.xml
 

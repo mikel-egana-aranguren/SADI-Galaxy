@@ -1,0 +1,33 @@
+<tool id="mergeRDFgraphs" name="Merge RDF Graphs" version="0.1">
+  <description>Merge RDF graphs</description>
+  <command interpreter="python">
+      MergeRDFGraphs.py
+      #for $i in $input_files
+        ${i.input_file}
+      #end for
+      > $output_file
+  </command>
+  <inputs>
+    <repeat name="input_files" title="Input RDF file">
+      <param name="input_file" type="data" format="rdf" label="RDF file"/>
+    </repeat>
+  </inputs>
+  <outputs>
+    <data name="output_file" format="rdf"/>
+  </outputs>
+  <help>
+    
+**Important note**
+
+RDFLib must be installed on the system (http://github.com/RDFLib/rdflib).
+
+**What it does**
+
+Merge RDF graphs from history.
+
+**Output Format**
+
+Output RDF format is RDF/XML by default.
+
+  </help>
+</tool>
