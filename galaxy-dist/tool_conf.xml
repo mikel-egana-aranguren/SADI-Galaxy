@@ -2,5 +2,36 @@
 		<label text="SADI common utilities" id="SADI-common-utilities"/>
 			<tool file="SADI/sadi_generic.xml"/>
 			<tool file="SADI/RDFSyntaxConverter.xml"/>
+			<tool file="SADI/mergeRDFgraphs.xml"/>
+		<label text="SADI services" id="SADI-services"/>
+			<tool file="SADI/getMolecularInteractions.xml"/>
+			<tool file="SADI/getMolecularInteractions.xml"/>
+			<tool file="SADI/getMolecularInteractions.xml"/>
+			<tool file="SADI/getTaxIDFromUniProt.xml"/>
+			<tool file="SADI/getTaxIDFromUniProt.xml"/>
+			<tool file="SADI/getKEGGIDFromUniProt.xml"/>
+			<tool file="SADI/getKEGGIDFromUniProt.xml"/>
+			<tool file="SADI/getKEGGIDFromUniProt.xml"/>
+			<tool file="SADI/UniProt-to-OMIM.xml"/>
+			<tool file="SADI/UniProt-to-Kegg.xml"/>
+			<tool file="SADI/UniProt-to-Pubmed.xml"/>
+			<tool file="SADI/UniProt-to-Pubmed.xml"/>
+			<tool file="SADI/UniProt-to-Pubmed.xml"/>
+			<tool file="SADI/getDrugBankByUniProt.xml"/>
+			<tool file="SADI/getDrugBankByUniProt.xml"/>
+			<tool file="SADI/getDrugBankByUniProt.xml"/>
+			<tool file="SADI/getdbSNPRecordByUniprotID.xml"/>
+			<tool file="SADI/UniProt-to-Prosite.xml"/>
+			<tool file="SADI/UniProt-to-GO.xml"/>
+			<tool file="SADI/UniProt-to-GO.xml"/>
+			<tool file="SADI/UniProt-to-GO.xml"/>
+			<tool file="SADI/UniProt-to-PDB.xml"/>
+			<tool file="SADI/UniProt-to-PDB.xml"/>
+			<tool file="SADI/UniProt-to-PDB.xml"/>
+			<tool file="SADI/UniProt-to-Entrez-Gene.xml"/>
+			<tool file="SADI/UniProt info.xml"/>
+			<tool file="SADI/UniProt info.xml"/>
+			<tool file="SADI/UniProt BLAST by UniProt ID.xml"/>
+			<tool file="SADI/UniProt-to-Gene.xml"/>
 	</section>
 </toolbox>

@@ -9,36 +9,36 @@ SADI-Galaxy is able to query any [SADI](http://sadiframework.org/) registry and 
 Usage
 -----
 
-The main function of SADI-Galaxy is to query a SADI registry and create, for each service, a Galaxy tool (a tool XML file, an entry in the `tool_conf.xml` file, and the needed jar files). Those files will be copied to the appropriate places in your Galaxy server (the `galaxy-dist` directory resembles an actual Galaxy server setting so it is self-explanatory); additionally, SADI-Galaxy can be configured to automatically (try to) edit the `tool_conf.xml` file of your Galaxy server.
+The main function of SADI-Galaxy is to query a SADI registry and create, for each service, a Galaxy tool (a tool XML file and an executable, and an entry in the `tool_conf.xml` file). Those files will be copied to the appropriate places in your Galaxy server (the `galaxy-dist` directory resembles an actual Galaxy server setting so it is self-explanatory); additionally, SADI-Galaxy can be configured to automatically (try to) edit the `tool_conf.xml` file of your Galaxy server.
 
-The script `SADI-Galaxy.sh` is the principal tool; you should stop Galaxy, run it, and start Galaxy again for the SADI services to appear as part of the Galaxy interface (The results of the process can be checked at the `log` file). It can be executed directly (See parameters list bellow) but a convenience script, `RUN-SADI-Galaxy.sh`, is included with example parameters. `SADI-Galaxy.sh` can be used to generate the following Galaxy tools:
+The script `SADI-Galaxy.sh` is the principal tool; you should stop Galaxy, run it, and start Galaxy again for the SADI services to appear as part of the Galaxy interface. In order to configure SADI-Galaxy  
+
+
+`SADI-Galaxy.sh` can be used to generate the following Galaxy tools:
 
 * SADI Galaxy Generic. This tool accepts any SADI service URI and an RDF input, and executes the SADI service with the RDF input, producing output RDF.
 * RDF Syntax Converter. This tool converts an RDF/XML file to N3, N-Triple, or, (more importantly for Galaxy) a tab delimited, three column file (Subject-Predicate-Object).
 * Merge RDF Graphs. This tool can be used to merge the RDF outputs of different SADI services in a single graph.
 * Optionally, a tool for each SADI service. This results in the same interface as the generic tool, without having to provide the service URI, thus, only the RDF input is needed. The URIs of these services are retrieved from a SADI registry using a SPARQL query, and each service status is tested: if it is not up and running, a Galaxy tool will not be generated for that service (this error will be shown in the log).
 
-Therefore `SADI-Galaxy.sh` can be executed to generate, depending on the parameters used:
+Therefore `SADI-Galaxy.sh` can be executed to generate the Generic SADI caller, RDF Syntax Converter, Merge RDF Graphs, and optionally a tool for each of the services retrieved from the registry. In order to configure `SADI-Galaxy.sh`, simply edit the configuration section within the script itself:
 
-* Generic SADI caller, RDF Syntax Converter, and Merge RDF Graphs: 
+* `GALAXY` (Required): Absolute path to your Galaxy installation (For SADI-Galaxy to copy the necessary files into your Galaxy server): e.g. `/home/mikel/galaxy-dist/`
+* `EDIT` (Required) Attempt to edit Galaxy tool_conf.xml (`edit`) or not (`no_edit`). If `no_edit` is selected (recommended), copy the lines from the newly generated `galaxy-dist/tool_conf.xml` to the actual `tool_conf.xml` of your galaxy server (e.g. `/home/mikel/galaxy-dist/tool_conf.xml`). 
+* `ENDPOINT` (Optional) SADI registry endpoint: e.g. `http://dev.biordf.net/sparql/`
+* `QUERY_DIR` (Optional) Path (Relative to this script) to the folder containing the SPARQL queries to execute (use this to tune which SADI services are retrieved; all the queries present in the directory will be executed): e.g. `sparql/queries/`
+  
+So a typical execution to generate the basic system (SADI Galaxy Generic, RDF Syntax Converter, and Merge RDF Graphs but no services from registry) without editing `tool_conf.xml` would look be achievedg with the following parameters:
 
-  * (Required) Absolute path to your Galaxy installation (For SADI-Galaxy to copy the necessary files into your Galaxy server): e.g. `/home/mikel/galaxy-dist/`
-  * (Required) Attempt to edit Galaxy tool_conf.xml (`edit`) or not (`no_edit`). If `no_edit` is selected (recommended), copy the lines from the newly generated `galaxy-dist/tool_conf.xml` to the actual `tool_conf.xml` of your galaxy server (e.g. `/home/mikel/galaxy-dist/tool_conf.xml`). 
-
-* Generic SADI caller, RDF Syntax Converter, Merge RDF Graphs, and a tool for each of the services retrieved from the registry:
-
-  * (Required) `/home/mikel/galaxy-dist/`
-  * (Required) `edit` or `no_edit` 
-  * (Optional) Path (Relative to this script) to the folder containing the SPARQL queries to execute (use this to tune which SADI services are retrieved; all the queries present in the directory will be executed): e.g. `sparql/queries/`
-  * (Optional) SADI registry endpoint: e.g. `http://dev.biordf.net/sparql/`
-
-So a typical execution to generate the basic system (SADI Galaxy Generic, RDF Syntax Converter, and Merge RDF Graphs but no services from registry) without editing `tool_conf.xml` would look like this:
-
-`./SADI-Galaxy.sh /home/mikel/galaxy-dist/ no_edit`
+* `GALAXY="/home/mikel/galaxy-dist/"` 
+* `EDIT="no_edit"`
 
 This will copy the necessary files for the tools SADI Generic, RDF Syntax Converter and Merge RDF Gaphs to appear as part of Galaxy when restarted. If you want to generate the SADI services defined in the queries at the folder `sparql/queries/`, querying the registry at `http://dev.biordf.net/sparql/`, without editing:
 
-`./SADI-Galaxy.sh /home/mikel/galaxy-dist/ no_edit sparql/queries/ http://dev.biordf.net/sparql/`
+* `GALAXY="/home/mikel/galaxy-dist/"` 
+* `EDIT="no_edit"`
+* `ENDPOINT="http://dev.biordf.net/sparql/"`
+* `QUERY_DIR="sparql/queries/"`
 
 This will generate the necessary files for each SADI service to appear as a Galaxy tool when Galaxy is restarted (As well as SADI Galaxy generic, RDF Syntax Converter, and Merge RDF Graphs).
 
@@ -97,16 +97,11 @@ And then execute the query generator like this:
 
 This will generate a query for each publisher (wilkinsonlab.info, illuminae.com, dev.biordf.net, Cyber-ShARE, sadiframework.org). 
 
-In summary, the following tools are available:
-
-* `SADI-Galaxy.sh`: main tool, for generating SADI services.
-* `RUN-SADI-Galaxy.sh`: convenience script to run `SADI-Galaxy.sh`.
-* `GENERATE_SPARQL_queries.sh`: convenience tool for generating queries that can be consumed by `SADI-Galaxy.sh`.   
 
 Dependencies
 ------------
 
-SADI-Galaxy, like Galaxy itself, is meant to work in a UNIX system with Bash and sed; it has been tested in Ubuntu and CentOS, with Java 1.7. Merge RDF Graphs depends on Python (Tested with 2.7.3.)
+SADI-Galaxy is meant to work in a UNIX system with Bash and sed; it has been tested in Ubuntu and CentOS, with Java 1.7. Merge RDF Graphs depends on Python (Tested with 2.7.3.)
  and [RDFLib](https://github.com/RDFLib/rdflib) (Tested with 4.1.1).
 
 Funding
