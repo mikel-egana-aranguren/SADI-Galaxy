@@ -1,0 +1,7 @@
+PREFIX sio_resource: <http://semanticscience.org/resource/>
+PREFIX sadi_pred:  <http://sadiframework.org/ontologies/predicates.owl#>
+SELECT DISTINCT ?protein ?SNP ?kegg_id
+WHERE {
+    ?protein sadi_pred:isEncodedBy ?kegg_id .
+    ?protein sio_resource:SIO_000272 ?SNP .
+}

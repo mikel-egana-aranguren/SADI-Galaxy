@@ -1,0 +1,783 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "", 
+    "format-version": "0.1", 
+    "name": "SADI-Galaxy JBMS GalaxyComplexClient", 
+    "steps": {
+        "0": {
+            "annotation": "", 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "Input Dataset"
+                }
+            ], 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 504.25241088867188, 
+                "top": 215.21338653564453
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"Input Dataset\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": []
+        }, 
+        "1": {
+            "annotation": "", 
+            "id": 1, 
+            "input_connections": {
+                "input": {
+                    "id": 0, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Remove beginning", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "input"
+                }
+            ], 
+            "position": {
+                "left": 793.03338623046875, 
+                "top": 214.01688385009766
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "Remove beginning1", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"num_lines\": \"\\\"1\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "2": {
+            "annotation": "", 
+            "id": 2, 
+            "input_connections": {
+                "input": {
+                    "id": 1, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Add column", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "input"
+                }
+            ], 
+            "position": {
+                "left": 495.07919311523438, 
+                "top": 440.11014556884766
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "addValue", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"exp\": \"\\\"http://lsrn.org/UniProt:\\\"\", \"iterate\": \"\\\"no\\\"\", \"input\": \"null\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "3": {
+            "annotation": "", 
+            "id": 3, 
+            "input_connections": {
+                "input1": {
+                    "id": 2, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Merge Columns", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 751.06170654296875, 
+                "top": 468.02869415283203
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "mergeCols1", 
+            "tool_state": "{\"__page__\": 0, \"input1\": \"null\", \"__rerun_remap_job_id__\": null, \"col2\": \"{\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": \\\"1\\\"}\", \"col1\": \"{\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": \\\"2\\\"}\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"columns\": \"[]\"}", 
+            "tool_version": "1.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "4": {
+            "annotation": "", 
+            "id": 4, 
+            "input_connections": {
+                "input": {
+                    "id": 3, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Cut", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 490.08200073242188, 
+                "top": 631.05893707275391
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "Cut1", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"delimiter\": \"\\\"T\\\"\", \"columnList\": \"\\\"c3\\\"\", \"input\": \"null\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": "1.0.2", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "5": {
+            "annotation": "", 
+            "id": 5, 
+            "input_connections": {
+                "input": {
+                    "id": 4, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Add column", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "input"
+                }
+            ], 
+            "position": {
+                "left": 749.137939453125, 
+                "top": 660.12705230712891
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "addValue", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"exp\": \"\\\"http://purl.oclc.org/SADI/LSRN/UniProt_Record\\\"\", \"iterate\": \"\\\"no\\\"\", \"input\": \"null\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "6": {
+            "annotation": "", 
+            "id": 6, 
+            "input_connections": {
+                "input_file": {
+                    "id": 5, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Tab-to-RDF", 
+            "outputs": [
+                {
+                    "name": "output_file", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 497.190673828125, 
+                "top": 830.19553375244141
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/sem4j/sparql_tools/tab2rdf/0.1", 
+            "tool_state": "{\"__page__\": 0, \"triples\": \"[{\\\"__index__\\\": 0, \\\"o_col\\\": {\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": \\\"2\\\"}, \\\"o_type\\\": \\\"False\\\", \\\"s_col\\\": {\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": \\\"1\\\"}, \\\"p_val\\\": \\\"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\\\"}]\", \"input_file\": \"null\", \"output_format\": \"\\\"rdfxml\\\"\", \"namespace\": \"{\\\"choose_namespace\\\": \\\"none\\\", \\\"__current_case__\\\": 1}\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null}", 
+            "tool_version": "0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "7": {
+            "annotation": "", 
+            "id": 7, 
+            "input_connections": {
+                "input_file": {
+                    "id": 6, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "RDF Format", 
+            "outputs": [
+                {
+                    "name": "output_file", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 758.24078369140625, 
+                "top": 858.25485992431641
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/sem4j/sparql_tools/rapper/0.1", 
+            "tool_state": "{\"__page__\": 0, \"input_format\": \"\\\"ntriples\\\"\", \"input_file\": \"null\", \"output_format\": \"\\\"rdfxml\\\"\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null}", 
+            "tool_version": "0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "8": {
+            "annotation": "", 
+            "id": 8, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "getTaxIDFromUniProt", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1120.313720703125, 
+                "top": 197.26575469970703
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "getTaxIDFromUniProt", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "9": {
+            "annotation": "", 
+            "id": 9, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "getMolecularInteractions", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1122.214111328125, 
+                "top": 298.24172210693359
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "getMolecularInteractions", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "10": {
+            "annotation": "", 
+            "id": 10, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "UniProt-to-OMIM", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1125.2406005859375, 
+                "top": 381.22315216064453
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "UniProt-to-OMIM", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "11": {
+            "annotation": "", 
+            "id": 11, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "UniProt-to-Kegg", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1127.1878662109375, 
+                "top": 482.15219879150391
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "UniProt-to-Kegg", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "12": {
+            "annotation": "", 
+            "id": 12, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "getKEGGIDFromUniProt", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1127.2347412109375, 
+                "top": 585.21616363525391
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "getKEGGIDFromUniProt", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "13": {
+            "annotation": "", 
+            "id": 13, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "UniProt-to-GO", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1127.2347412109375, 
+                "top": 669.22989654541016
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "UniProt-to-GO", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "14": {
+            "annotation": "", 
+            "id": 14, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "UniProt-to-PDB", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1128.1966552734375, 
+                "top": 769.22049713134766
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "UniProt-to-PDB", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "15": {
+            "annotation": "", 
+            "id": 15, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "UniProt-to-Pubmed", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1130.2142333984375, 
+                "top": 870.14957427978516
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "UniProt-to-Pubmed", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "16": {
+            "annotation": "", 
+            "id": 16, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "UniProt-to-Prosite", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1130.2142333984375, 
+                "top": 971.14896392822266
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "UniProt-to-Prosite", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "17": {
+            "annotation": "", 
+            "id": 17, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "UniProt-to-Entrez-Gene", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1131.24658203125, 
+                "top": 1072.2187881469727
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "UniProt-to-Entrez-Gene", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "18": {
+            "annotation": "", 
+            "id": 18, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "getDrugBankByUniProt", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1134.2730712890625, 
+                "top": 1157.2413711547852
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "getDrugBankByUniProt", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "19": {
+            "annotation": "", 
+            "id": 19, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "UniProt info", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1135.2584228515625, 
+                "top": 1259.2495498657227
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "UniProt info", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "20": {
+            "annotation": "", 
+            "id": 20, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "UniProt BLAST by UniProt ID", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1136.2437744140625, 
+                "top": 1360.2490615844727
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "UniProt BLAST by UniProt ID", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "21": {
+            "annotation": "", 
+            "id": 21, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "getdbSNPRecordByUniprotID", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1140.1383056640625, 
+                "top": 1445.1073379516602
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "getdbSNPRecordByUniprotID", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "22": {
+            "annotation": "", 
+            "id": 22, 
+            "input_connections": {
+                "input": {
+                    "id": 7, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "UniProt-to-Gene", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1139.2467041015625, 
+                "top": 1530.2471084594727
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "UniProt-to-Gene", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "23": {
+            "annotation": "", 
+            "id": 23, 
+            "input_connections": {
+                "input_files_0|input_file": {
+                    "id": 8, 
+                    "output_name": "output"
+                }, 
+                "input_files_10|input_file": {
+                    "id": 18, 
+                    "output_name": "output"
+                }, 
+                "input_files_11|input_file": {
+                    "id": 19, 
+                    "output_name": "output"
+                }, 
+                "input_files_12|input_file": {
+                    "id": 20, 
+                    "output_name": "output"
+                }, 
+                "input_files_13|input_file": {
+                    "id": 21, 
+                    "output_name": "output"
+                }, 
+                "input_files_14|input_file": {
+                    "id": 22, 
+                    "output_name": "output"
+                }, 
+                "input_files_1|input_file": {
+                    "id": 9, 
+                    "output_name": "output"
+                }, 
+                "input_files_2|input_file": {
+                    "id": 10, 
+                    "output_name": "output"
+                }, 
+                "input_files_3|input_file": {
+                    "id": 11, 
+                    "output_name": "output"
+                }, 
+                "input_files_4|input_file": {
+                    "id": 12, 
+                    "output_name": "output"
+                }, 
+                "input_files_5|input_file": {
+                    "id": 13, 
+                    "output_name": "output"
+                }, 
+                "input_files_6|input_file": {
+                    "id": 14, 
+                    "output_name": "output"
+                }, 
+                "input_files_7|input_file": {
+                    "id": 15, 
+                    "output_name": "output"
+                }, 
+                "input_files_8|input_file": {
+                    "id": 16, 
+                    "output_name": "output"
+                }, 
+                "input_files_9|input_file": {
+                    "id": 17, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Merge RDF Graphs", 
+            "outputs": [
+                {
+                    "name": "output_file", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1623.222900390625, 
+                "top": 660.22086334228516
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "mergeRDFgraphs", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"input_files\": \"[{\\\"__index__\\\": 0, \\\"input_file\\\": null}, {\\\"__index__\\\": 1, \\\"input_file\\\": null}, {\\\"__index__\\\": 2, \\\"input_file\\\": null}, {\\\"__index__\\\": 3, \\\"input_file\\\": null}, {\\\"__index__\\\": 4, \\\"input_file\\\": null}, {\\\"__index__\\\": 5, \\\"input_file\\\": null}, {\\\"__index__\\\": 6, \\\"input_file\\\": null}, {\\\"__index__\\\": 7, \\\"input_file\\\": null}, {\\\"__index__\\\": 8, \\\"input_file\\\": null}, {\\\"__index__\\\": 9, \\\"input_file\\\": null}, {\\\"__index__\\\": 10, \\\"input_file\\\": null}, {\\\"__index__\\\": 11, \\\"input_file\\\": null}, {\\\"__index__\\\": 12, \\\"input_file\\\": null}, {\\\"__index__\\\": 13, \\\"input_file\\\": null}, {\\\"__index__\\\": 14, \\\"input_file\\\": null}]\"}", 
+            "tool_version": "0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "24": {
+            "annotation": "", 
+            "id": 24, 
+            "input_connections": {
+                "ontology": {
+                    "id": 23, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Execute an SPARQL query against an RDF file", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "html"
+                }
+            ], 
+            "position": {
+                "left": 1628.202392578125, 
+                "top": 1513.1968154907227
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "SPARQLGalaxy", 
+            "tool_state": "{\"__page__\": 0, \"pasted_query\": \"\\\"PREFIX sio_resource: <http://semanticscience.org/resource/>\\\\r\\\\nPREFIX sadi_pred:  <http://sadiframework.org/ontologies/predicates.owl#>\\\\r\\\\nSELECT DISTINCT ?protein ?SNP ?kegg_id\\\\r\\\\nWHERE {\\\\r\\\\n    ?protein sadi_pred:isEncodedBy ?kegg_id .\\\\r\\\\n    ?protein sio_resource:SIO_000272 ?SNP .\\\\r\\\\n}\\\"\", \"ontology\": \"null\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null}", 
+            "tool_version": "1.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }
+    }
+}

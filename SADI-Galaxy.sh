@@ -36,8 +36,8 @@ GALAXY="/home/mikel/galaxy-dist/"
 # "edit": the script will merge both files, i.e. append SADI services to
 # tool_conf.xml. Use with care.
 
-EDIT="no_edit"
-# EDIT="edit"
+# EDIT="no_edit"
+EDIT="edit"
 
 # The following two options are needed only if you want to generate a given set
 # of SADI services: uncomment and edit if needed, otherwise leave commented.
@@ -62,6 +62,7 @@ QUERY_DIR="sparql/queries/"
 # system
 
 if [ ! -z ${ENDPOINT+x} ]; 
+
     then
 
 	# Create new tool_conf.xml file
@@ -81,9 +82,12 @@ if [ ! -z ${ENDPOINT+x} ];
 	LIST=$QUERY_DIR"*"
   
 	for QUERY in $LIST
+
 	  do
+
 	    echo "INFO: executing tool generator with $QUERY"
 	    java -jar sadi_tool_generator.jar $QUERY $ENDPOINT galaxy-dist/tool_conf.xml galaxy-dist/tools/SADI/ 2 > log 
+
 	  done
   
 	echo "	</section>" >> galaxy-dist/tool_conf.xml
@@ -102,14 +106,18 @@ if [ ! -z ${ENDPOINT+x} ];
 	echo "			<tool file=\"SADI/mergeRDFgraphs.xml\"/>" >> galaxy-dist/tool_conf.xml
 	echo "	</section>" >> galaxy-dist/tool_conf.xml
 	echo "</toolbox>" >> galaxy-dist/tool_conf.xml
+
 fi
 
 GALAXY_SADI=$GALAXY"tools/SADI/"
 
 # Create SADI directory in server if it doesn't exist 
 if [ ! -d $GALAXY_SADI ]; 
+
  then
+
    mkdir $GALAXY_SADI
+
 fi
  
 # Copy everything
@@ -122,6 +130,7 @@ cp galaxy-dist/test-data/* $GALAXY"/test-data/"
 
 # Edit main tool_conf.xml if needed
 if [ $EDIT = "edit" ];
+
   then
     
     # !!! Use with care !!! 
@@ -141,9 +150,12 @@ if [ $EDIT = "edit" ];
     echo ""
     echo "INFO: Editing $MAIN_TOOL_CONF"
     echo ""
-  else
+ 
+ else
+
     echo "INFO: Edit $GALAXY""tool_conf.xml by adding the content of ./galaxy-dist/tool_conf.xml to it"
     echo ""
+
 fi
 
 ###############################################################
