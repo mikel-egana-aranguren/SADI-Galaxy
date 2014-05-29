@@ -23,3 +23,7 @@ WHERE {
 	  ?op serv:outputParameter ?outputP .
 	  ?outputP serv:objectType ?output
   }
+
+
+
+

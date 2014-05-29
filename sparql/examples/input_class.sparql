@@ -1,5 +1,3 @@
-# Default graph URI http://sadiframework.org/registry/
-
 PREFIX  dc:   <http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl#>
 PREFIX  sadi: <http://sadiframework.org/ontologies/sadi.owl#>
 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -13,3 +11,11 @@ WHERE {
   ?op serv:inputParameter ?input .
   ?input serv:objectType <http://purl.oclc.org/SADI/LSRN/UniProt_Record> 
 }
+
+
+
+
+
+
+
+# Default graph URI http://sadiframework.org/registry/

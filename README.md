@@ -6,6 +6,10 @@ About
 
 SADI-Galaxy is able to query any [SADI](http://sadiframework.org/) registry and install, in a local [Galaxy](http://galaxyproject.org/) server, a wrapper for each of the retrieved SADI services. With SADI-Galaxy, the Galaxy web interface can be used to execute SADI services on their own or in combination with other Galaxy tools, to generate workflows. There is a public [Galaxy page](http://biordf.org:8983/u/mikel-egana-aranguren/p/sadi-galaxy-jbms-use-cases) with example use cases.
 
+![http://zenodo.org/record/10181](http://zenodo.org/badge/4255/mikel-egana-aranguren/SADI-Galaxy.png "http://zenodo.org/record/10181")
+
+
+
 Usage
 -----
 
