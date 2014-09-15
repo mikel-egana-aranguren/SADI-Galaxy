@@ -1,0 +1,56 @@
+PREFIX dc:<http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sadi: <http://sadiframework.org/ontologies/sadi.owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX serv: <http://www.mygrid.org.uk/mygrid-moby-service#>
+
+SELECT ?s
+
+WHERE
+{
+ ?s rdf:type serv:serviceDescription .
+ ?s dc:identifier ?url .
+ ?s serv:hasServiceNameText ?name .
+ ?s serv:hasServiceDescriptionText ?desc .
+ FILTER (regex (?name, "^Gene_x-uniprot$|^Gene_x-mgi$|^Gene_article$|^Gene_gene-function$|^Gene-Symbol_x-omim$|^Gene-Symbol_approved-name$"))
+}
+
+
+
+
+# The 6 services are:
+# 
+# (1) Gene-Symbol_approved-name
+# (2) Gene-Symbol_x-omim
+# (3) Gene_gene-function
+# (4) Gene_article
+# (5) Gene_x-mgi
+# (6) Gene_x-uniprot
+# 
+# Those 6 service names go into the following query:
+
+# PREFIX dc:
+# <http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl#>
+# PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+# PREFIX sadi: <http://sadiframework.org/ontologies/sadi.owl#>
+# PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+# PREFIX owl: <http://www.w3.org/2002/07/owl#>
+# PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+# PREFIX serv: <http://www.mygrid.org.uk/mygrid-moby-service#>
+# 
+# SELECT ?url ?desc
+# FROM <http://sadiframework.org/registry/>
+# WHERE
+# {?s rdf:type serv:serviceDescription .
+#  ?s dc:identifier ?url .
+# ?s serv:hasServiceNameText "SERVICE NAME HERE" .
+#  ?s serv:hasServiceDescriptionText ?desc .
+# }
+
+
+# Note that services (5) and (6) when retrieved by name, will discover two and four services respectively.    The ones you want for the workflow are:
+# 
+# (5) http://biordf.org/cgi-bin/SADI/OpenLifeData2SADI/SADI/omim/omim_vocabulary_Gene_omim_vocabulary_x-mgi_mgi_vocabulary_Gene
+# (6) http://biordf.org/cgi-bin/SADI/OpenLifeData2SADI/SADI/mgi/mgi_vocabulary_Gene_mgi_vocabulary_x-uniprot_uniprot_vocabulary_Resource 
