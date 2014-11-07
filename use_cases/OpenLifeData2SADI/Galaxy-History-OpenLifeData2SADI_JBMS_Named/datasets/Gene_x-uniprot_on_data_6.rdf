@@ -1,0 +1,13 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://biordf.org/ontologies/mgi/mgi_vocabulary_Gene_mgi_vocabulary_x-uniprot_uniprot_vocabulary_Resource.owl#"
+    xmlns:j.1="http://openlifedata.org/uniprot_vocabulary:"
+    xmlns:ns1="http://openlifedata.org/mgi_vocabulary:" > 
+  <rdf:Description rdf:about="http://openlifedata.org/mgi:2449119">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/mgi/mgi_vocabulary_Gene_mgi_vocabulary_x-uniprot_uniprot_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot rdf:resource="http://openlifedata.org/uniprot:Q6GQT1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q6GQT1">
+    <rdf:type rdf:resource="http://openlifedata.org/uniprot_vocabulary:Resource"/>
+  </rdf:Description>
+</rdf:RDF>

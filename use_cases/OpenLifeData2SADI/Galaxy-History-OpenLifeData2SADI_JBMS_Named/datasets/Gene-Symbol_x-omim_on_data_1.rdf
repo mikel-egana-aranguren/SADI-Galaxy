@@ -1,0 +1,13 @@
+<rdf:RDF
+    xmlns:ns1="http://openlifedata.org/hgnc_vocabulary:"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://openlifedata.org/omim_vocabulary:"
+    xmlns:j.1="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Gene-Symbol_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#" > 
+  <rdf:Description rdf:about="http://openlifedata.org/omim:103950">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:7">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Gene-Symbol_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:103950"/>
+  </rdf:Description>
+</rdf:RDF>

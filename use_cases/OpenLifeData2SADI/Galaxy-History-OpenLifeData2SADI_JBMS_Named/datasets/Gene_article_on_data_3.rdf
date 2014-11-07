@@ -1,0 +1,155 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://openlifedata.org/omim_vocabulary:"
+    xmlns:ns1="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.1="http://biordf.org/ontologies/omim/omim_vocabulary_Gene_omim_vocabulary_article_pubmed_vocabulary_PubMedRecord.owl#"
+    xmlns:j.2="http://openlifedata.org/pubmed_vocabulary:" > 
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:10319845">
+    <ns1:label>"Freely associating. (Editorial) [pubmed:10319845]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:2434923">
+    <ns1:label>"Two Taq I RFLPs for human alpha-2 macroglobulin (alpha-2M) using a full length cDNA probe. [pubmed:2434923]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:4622731">
+    <ns1:label>"A new genetic polymorphism of human serum: alpha(2) macroglobulin (AL-M). [pubmed:4622731]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:18499670">
+    <ns1:label>"Molecular dissection of the human alpha-2-macroglobulin subunit reveals domains with antagonistic activities in cell signaling. [pubmed:18499670]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:9697696">
+    <ns1:label>"Alpha-2 macroglobulin is genetically associated with Alzheimer disease. [pubmed:9697696]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:2408344">
+    <ns1:label>"Human alpha-2-macroglobulin gene is located on chromosome 12. [pubmed:2408344]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:10319854">
+    <ns1:label>"Alpha-2 macroglobulin gene and Alzheimer disease. (Letter) [pubmed:10319854]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:7528166">
+    <ns1:label>"Molecular cloning of the mouse gene coding for alpha-2-macroglobulin and targeting of the gene in embryonic stem cells. [pubmed:7528166]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:2478422">
+    <ns1:label>"A cluster of alpha 2-macroglobulin-related genes (alpha 2 M) on human chromosome 12p: cloning of the pregnancy-zone protein gene and an alpha 2M pseudogene. [pubmed:2478422]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:8798779">
+    <ns1:label>"Murine alpha-macroglobulins demonstrate divergent activities as neutralizers of transforming growth factor-beta and as inducers of nitric oxide synthesis: a possible mechanism for the endotoxin insensitivity of the alpha-2-macroglobulin gene knock-out mouse. [pubmed:8798779]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:1374237">
+    <ns1:label>"Structure of the human alpha-2 macroglobulin gene and its promotor (sic). [pubmed:1374237]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:19639019">
+    <ns1:label>"Depletion of potential A2M risk haplotype for Alzheimer's disease in long-lived individuals. [pubmed:19639019]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:19380872">
+    <ns1:label>"Hepcidin, the hormone of iron metabolism, is bound specifically to alpha-2-macroglobulin in blood. [pubmed:19380872]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:9811940">
+    <ns1:label>"Genetic association of an alpha-2-macroglobulin (val1000ile) polymorphism and Alzheimer's disease. [pubmed:9811940]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:94459">
+    <ns1:label>"Hereditary alpha-2-macroglobulin deficiency. [pubmed:94459]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:2581245">
+    <ns1:label>"Nucleotide sequence of cDNA encoding human alpha-2-macroglobulin and assignment of the chromosomal locus. [pubmed:2581245]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:1379499">
+    <ns1:label>"Assignment of mouse alpha-2-macroglobulin gene to chromosome 6 band F1-G3. [pubmed:1379499]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:2415929">
+    <ns1:label>"Three RFLPs associated with the human alpha-2-macroglobulin gene (A2M). [pubmed:2415929]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:2578664">
+    <ns1:label>"Common evolutionary origin of alpha-2-macroglobulin and complement components C3 and C4. [pubmed:2578664]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:2460294">
+    <ns1:label>"The polymorphic human alpha-2-macroglobulin gene (A2M) is located in chromosome region 12p12.3-p13.3. [pubmed:2460294]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:10319855">
+    <ns1:label>"An alpha-2-macroglobulin insertion-deletion polymorphism in Alzheimer disease. (Letter) [pubmed:10319855]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:10319853">
+    <ns1:label>"Alpha-2 macroglobulin polymorphism and Alzheimer disease risk in the UK. (Letter) [pubmed:10319853]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:1717945">
+    <ns1:label>"A deletion polymorphism in the human alpha-2-macroglobulin (A2M) gene. [pubmed:1717945]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:12966032">
+    <ns1:label>"Genetic association of Alzheimer's disease with multiple polymorphisms in alpha-2-macroglobulin. [pubmed:12966032]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:16040006">
+    <ns1:label>"Association study of the A2M and LRP1 genes with Alzheimer disease in the Han Chinese. [pubmed:16040006]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:103950">
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:2475424"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:15023809"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:10319845"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:2460294"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:2434923"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:1370808"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:7528166"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:8798779"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:4622731"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:12966032"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:16040006"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:1717945"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:1379499"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:10319853"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:94459"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:19639019"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:18499670"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:10319854"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:2581245"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:19380872"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:2578664"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:9697696"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:10319855"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:2408344"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:2478422"/>
+    <rdf:type rdf:resource="http://biordf.org/ontologies/omim/omim_vocabulary_Gene_omim_vocabulary_article_pubmed_vocabulary_PubMedRecord.owl#ServiceOutput"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:1374237"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:7544347"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:2415929"/>
+    <j.0:article rdf:resource="http://openlifedata.org/pubmed:9811940"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:2475424">
+    <ns1:label>"Detection of an alteration of the alpha-2-macroglobulin gene in a patient with chronic lung disease and serum alpha-2-macroglobulin deficiency. [pubmed:2475424]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:7544347">
+    <ns1:label>"Targeted inactivation of the mouse alpha-2-macroglobulin gene. [pubmed:7544347]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:15023809">
+    <ns1:label>"Increased risk for Alzheimer disease with the interaction of MPO and A2M polymorphisms. [pubmed:15023809]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/pubmed:1370808">
+    <ns1:label>"Cloning of the human alpha-2-macroglobulin gene and detection of mutations in two functional domains: the bait region and the thiolester site. [pubmed:1370808]"@en</ns1:label>
+    <rdf:type rdf:resource="http://openlifedata.org/pubmed_vocabulary:PubMedRecord"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,9 @@
+<rdf:RDF
+    xmlns:ns1="http://openlifedata.org/hgnc_vocabulary:"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Gene-Symbol_hgnc_vocabulary_approved-name_string.owl#" > 
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:7">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Gene-Symbol_hgnc_vocabulary_approved-name_string.owl#ServiceOutput"/>
+    <ns1:approved-name>alpha-2-macroglobulin</ns1:approved-name>
+  </rdf:Description>
+</rdf:RDF>

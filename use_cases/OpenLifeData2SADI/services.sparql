@@ -1,0 +1,18 @@
+PREFIX dc:<http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sadi: <http://sadiframework.org/ontologies/sadi.owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX serv: <http://www.mygrid.org.uk/mygrid-moby-service#>
+
+SELECT ?s
+
+WHERE
+{
+ ?s rdf:type serv:serviceDescription .
+ ?s dc:identifier ?url .
+ ?s serv:hasServiceNameText ?name .
+ ?s serv:hasServiceDescriptionText ?desc .
+ FILTER (regex (?name, "^Gene_x-uniprot$|^Gene_x-mgi$|^Gene_article$|^Gene_gene-function$|^Gene-Symbol_x-omim$|^Gene-Symbol_approved-name$"))
+}
