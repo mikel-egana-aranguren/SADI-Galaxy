@@ -1,0 +1,678 @@
+<rdf:RDF
+    xmlns:ns1="http://openlifedata.org/hgnc_vocabulary:"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://openlifedata.org/omim_vocabulary:"
+    xmlns:j.1="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#" > 
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:12726">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:613160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:601686">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:612034">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:24036">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:612034"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2951">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:603336"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:613484">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:18056">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:607798"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:605299">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:603340">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:18541">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:608444"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:8117">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:300588"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29190">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:610740"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:17344">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:608865"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:609870">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:600236">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:19162">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:614642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:583">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:611731"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:602666">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:603337">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:10591">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:603967"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29232">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:610028"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:601557">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2213">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:120250"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:17575">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:613484"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:19308">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:607217"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:600922">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:609721">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:182790">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:610142">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:608461">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:605516">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:7133">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:602113"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:28993">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:611184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:603967">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:613768">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:1858">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:605496"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:22986">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:608461"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:605496">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:604670">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:608541">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:14303">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:609778"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:113810">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:614925">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:7590">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:600922"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:610771">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:610740">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:613344">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:179590">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:15580">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:608117"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:10025">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:180610"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:1857">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:600236"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:610844">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:608684">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2214">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:120120"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:603122">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:14539">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:613768"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:608865">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:9670">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:179590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:347">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:103390"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:31104">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:610067"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:13561">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:606649"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:607807">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:11720">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:602574"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:106410">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:600299">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:604760">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2334">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:120620"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:604090">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:182390">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:18420">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:612778"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:4181">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:603698"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:14405">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:607350"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2988">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:603122"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:17342">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:300553"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:4814">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:604605"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:602574">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:606649">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:7594">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:602666"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:14638">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:607807"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:607217">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29945">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:610084"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:612778">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:605671">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:493">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:106410"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29357">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:615115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:120120">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:17995">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:607009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:300588">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:608117">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2952">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:603337"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:601055">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:610028">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:604696">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:85">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:601557"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:300019">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:9099">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:601055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:1090">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:113810"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:603107">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:614270">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:615115">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:608568">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:607798">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:614642">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:369">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:604696"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:600185">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:611184">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:611731">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:11226">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:610844"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:610053">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:8727">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:600299"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:602509">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:604570">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:300681">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:615295">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:610067">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:18127">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:610053"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:607843">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:609534">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:603009">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:9015">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:604670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:20313">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:607843"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:3604">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:612570"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:20066">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:615295"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:609816">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:30859">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:601664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:11726">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:601686"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:608442">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:17084">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:608442"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:602776">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:23483">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:300681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:23725">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:609870"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:13733">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:605516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:604605">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:11631">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:603107"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:16816">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:610771"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:10485">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:180903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:612570">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:23399">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:608944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:3373">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:602700"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:613160">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2904">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:604090"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:601664">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:26901">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:614925"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:180903">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:4839">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:300019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:21715">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:607894"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:602113">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:120620">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:600770">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:17399">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:608541"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:103390">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:10588">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:182390"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:602700">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:1101">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:600185"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:15985">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:611691"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:609778">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:22219">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:613344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:603698">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:608444">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:4427">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:602509"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2943">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:603340"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:300553">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:15936">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:605299"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:610084">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:14906">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:608684"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:30422">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:604570"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29021">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:610142"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:180610">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29187">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:611055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:25752">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:609534"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:608944">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:11275">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:182790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:9968">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:602776"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:25325">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:614270"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:23212">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:608568"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:611055">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:607325">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:18053">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:609721"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2937">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:605671"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:13028">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:604760"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:120250">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:603336">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:611691">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:607009">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:20681">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:609816"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:3097">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:603009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:14132">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:607325"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:607894">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:3581">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:601819"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:7516">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene.owl#ServiceOutput"/>
+    <ns1:x-omim rdf:resource="http://openlifedata.org/omim:600770"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:607350">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/omim:601819">
+    <rdf:type rdf:resource="http://openlifedata.org/omim_vocabulary:Gene"/>
+  </rdf:Description>
+</rdf:RDF>

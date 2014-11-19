@@ -1,0 +1,950 @@
+<rdf:RDF
+    xmlns:ns1="http://openlifedata.org/hgnc_vocabulary:"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#" > 
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q6ZMW3">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:35412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UPQ9">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:29190"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:24036">
+    <rdfs:label>"Gene Symbol for APC2 [hgnc:24036]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q96RT7">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:18127"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9Y4D8">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:26611"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:18541">
+    <rdfs:label>"Gene Symbol for KMT2E [hgnc:18541]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A4UGR9">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:14303"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29190">
+    <rdfs:label>"Gene Symbol for TNRC6B [hgnc:29190]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q86UQ4">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:14638"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:19162">
+    <rdfs:label>"Gene Symbol for STARD9 [hgnc:19162]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29345">
+    <rdfs:label>"Gene Symbol for KIAA1671 [hgnc:29345]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:583">
+    <rdfs:label>"Gene Symbol for APC [hgnc:583]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O60673">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:9968"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:17575">
+    <rdfs:label>"Gene Symbol for SPEN [hgnc:17575]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P10586">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:9670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q03164">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:7132"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29279">
+    <rdfs:label>"Gene Symbol for BAHCC1 [hgnc:29279]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29915">
+    <rdfs:label>"Gene Symbol for NUP210L [hgnc:29915]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:22986">
+    <rdfs:label>"Gene Symbol for COL27A1 [hgnc:22986]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q96JB1">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:2952"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A3KMH1">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:29071"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:14303">
+    <rdfs:label>"Gene Symbol for XIRP2 [hgnc:14303]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:7590">
+    <rdfs:label>"Gene Symbol for MYLK [hgnc:7590]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:10025">
+    <rdfs:label>"Gene Symbol for RLF [hgnc:10025]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UGU0">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:11631"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:347">
+    <rdfs:label>"Gene Symbol for AHNAK [hgnc:347]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29366">
+    <rdfs:label>"Gene Symbol for KIAA1731 [hgnc:29366]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:11720">
+    <rdfs:label>"Gene Symbol for TECTA [hgnc:11720]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2334">
+    <rdfs:label>"Gene Symbol for CR1 [hgnc:2334]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:14405">
+    <rdfs:label>"Gene Symbol for KIF13B [hgnc:14405]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2988">
+    <rdfs:label>"Gene Symbol for DOCK2 [hgnc:2988]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:4814">
+    <rdfs:label>"Gene Symbol for KALRN [hgnc:4814]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29011">
+    <rdfs:label>"Gene Symbol for TRANK1 [hgnc:29011]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q01484">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:493"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9P2D8">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:19966"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9C0F0">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:29357"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:493">
+    <rdfs:label>"Gene Symbol for ANK2 [hgnc:493]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29357">
+    <rdfs:label>"Gene Symbol for ASXL3 [hgnc:29357]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9P281">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:29279"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9BZ29">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:14132"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:85">
+    <rdfs:label>"Gene Symbol for ACACB [hgnc:85]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q6ZS30">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:20681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:369">
+    <rdfs:label>"Gene Symbol for AKAP11 [hgnc:369]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9BY89">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:29345"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:33276">
+    <rdfs:label>"Gene Symbol for FLG2 [hgnc:33276]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O15078">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:29021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q03001">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:1090"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:8727">
+    <rdfs:label>"Gene Symbol for PCM1 [hgnc:8727]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:23528">
+    <rdfs:label>"Gene Symbol for ZSWIM8 [hgnc:23528]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q6ZR08">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:2943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9NQT8">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:14405"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9P2P6">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:19162"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UIW2">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:9099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:6667">
+    <rdfs:label>"Gene Symbol for LPA [hgnc:6667]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5VU65">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:29915"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5T1R4">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:13561"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:20313">
+    <rdfs:label>"Gene Symbol for PKHD1L1 [hgnc:20313]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29027">
+    <rdfs:label>"Gene Symbol for ZZEF1 [hgnc:29027]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:20066">
+    <rdfs:label>"Gene Symbol for USP34 [hgnc:20066]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q86WI1">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:20313"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:30859">
+    <rdfs:label>"Gene Symbol for SNRNP200 [hgnc:30859]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A7KAX9">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:17399"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9NTG1">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:9015"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P51610">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:4839"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8IZX4">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:18056"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:13733">
+    <rdfs:label>"Gene Symbol for CDH23 [hgnc:13733]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O15050">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:29011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:11631">
+    <rdfs:label>"Gene Symbol for TCF20 [hgnc:11631]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:16816">
+    <rdfs:label>"Gene Symbol for CHD5 [hgnc:16816]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9HCM3">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:22219"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:24500">
+    <rdfs:label>"Gene Symbol for KIAA1429 [hgnc:24500]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:3373">
+    <rdfs:label>"Gene Symbol for EP300 [hgnc:3373]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q09472">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:3373"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2904">
+    <rdfs:label>"Gene Symbol for DLG5 [hgnc:2904]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O75643">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:30859"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O75923">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:3097"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:23378">
+    <rdfs:label>"Gene Symbol for KIAA2026 [hgnc:23378]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:4839">
+    <rdfs:label>"Gene Symbol for HCFC1 [hgnc:4839]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:21715">
+    <rdfs:label>"Gene Symbol for PKD1L2 [hgnc:21715]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O60229">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:4814"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q15746">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:7590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P08519">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:6667"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:10588">
+    <rdfs:label>"Gene Symbol for SCN2A [hgnc:10588]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:1101">
+    <rdfs:label>"Gene Symbol for BRCA2 [hgnc:1101]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:15985">
+    <rdfs:label>"Gene Symbol for SVEP1 [hgnc:15985]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:22219">
+    <rdfs:label>"Gene Symbol for KIAA1549 [hgnc:22219]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5T5U3">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:23725"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2943">
+    <rdfs:label>"Gene Symbol for DNAH12 [hgnc:2943]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:4427">
+    <rdfs:label>"Gene Symbol for GOLGA4 [hgnc:4427]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:15936">
+    <rdfs:label>"Gene Symbol for NCOA6 [hgnc:15936]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5D862">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:33276"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q15154">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:8727"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:25752">
+    <rdfs:label>"Gene Symbol for ATAD5 [hgnc:25752]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8TDM6">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:2904"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q96JI7">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:11226"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q01082">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:11275"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:25325">
+    <rdfs:label>"Gene Symbol for CCDC108 [hgnc:25325]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:23212">
+    <rdfs:label>"Gene Symbol for MYH14 [hgnc:23212]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A6NKB5">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:8736"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UKA4">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:369"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q02388">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:2214"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q96T58">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:17575"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8IZC6">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:22986"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:20681">
+    <rdfs:label>"Gene Symbol for NBEAL1 [hgnc:20681]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:3097">
+    <rdfs:label>"Gene Symbol for DYSF [hgnc:3097]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P04275">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:12726"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q69YN4">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:24500"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:3581">
+    <rdfs:label>"Gene Symbol for BPTF [hgnc:3581]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5JSL3">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:23483"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9Y485">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:2937"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:20165">
+    <rdfs:label>"Gene Symbol for NYNRIN [hgnc:20165]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P49454">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:1857"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O14686">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:7133"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:12726">
+    <rdfs:label>"Gene Symbol for VWF [hgnc:12726]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9H251">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:13733"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2951">
+    <rdfs:label>"Gene Symbol for DNAH6 [hgnc:2951]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:18056">
+    <rdfs:label>"Gene Symbol for TAF1L [hgnc:18056]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q92608">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:2988"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:8117">
+    <rdfs:label>"Gene Symbol for TENM1 [hgnc:8117]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A7E2V4">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:23528"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:17344">
+    <rdfs:label>"Gene Symbol for URB1 [hgnc:17344]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9C0D2">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:29366"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P25054">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:583"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q3ZCN5">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:26901"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:10591">
+    <rdfs:label>"Gene Symbol for SCN4A [hgnc:10591]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29232">
+    <rdfs:label>"Gene Symbol for PARP14 [hgnc:29232]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2213">
+    <rdfs:label>"Gene Symbol for COL6A3 [hgnc:2213]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:19308">
+    <rdfs:label>"Gene Symbol for SDK2 [hgnc:19308]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:19966">
+    <rdfs:label>"Gene Symbol for UNC79 [hgnc:19966]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O75443">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:11720"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:24238">
+    <rdfs:label>"Gene Symbol for CEP350 [hgnc:24238]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q6RI45">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:17342"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P17927">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:2334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O00763">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:85"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:7133">
+    <rdfs:label>"Gene Symbol for KMT2D [hgnc:7133]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:28993">
+    <rdfs:label>"Gene Symbol for PIEZO1 [hgnc:28993]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:1858">
+    <rdfs:label>"Gene Symbol for CNTRL [hgnc:1858]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UL36">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:13028"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q12830">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:3581"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UPS6">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:29187"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9BX84">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:17995"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UKN7">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:7594"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8IZD2">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:18541"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q96QE3">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:25752"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q6ZU64">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:25325"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:7132">
+    <rdfs:label>"Gene Symbol for KMT2A [hgnc:7132]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:1857">
+    <rdfs:label>"Gene Symbol for CENPF [hgnc:1857]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:15580">
+    <rdfs:label>"Gene Symbol for PDE4DIP [hgnc:15580]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:21675">
+    <rdfs:label>"Gene Symbol for FSIP2 [hgnc:21675]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2214">
+    <rdfs:label>"Gene Symbol for COL7A1 [hgnc:2214]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:14539">
+    <rdfs:label>"Gene Symbol for RNF213 [hgnc:14539]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5CZC0">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:21675"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:9670">
+    <rdfs:label>"Gene Symbol for PTPRF [hgnc:9670]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:31104">
+    <rdfs:label>"Gene Symbol for MYO18A [hgnc:31104]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:13561">
+    <rdfs:label>"Gene Symbol for HIVEP3 [hgnc:13561]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8TDI0">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:16816"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UKZ4">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:8117"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q09666">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:4181">
+    <rdfs:label>"Gene Symbol for GBF1 [hgnc:4181]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:18420">
+    <rdfs:label>"Gene Symbol for SETD2 [hgnc:18420]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:17342">
+    <rdfs:label>"Gene Symbol for BRWD3 [hgnc:17342]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:7594">
+    <rdfs:label>"Gene Symbol for MYO15A [hgnc:7594]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:14638">
+    <rdfs:label>"Gene Symbol for ABCA13 [hgnc:14638]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q4LDE5">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:15985"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q58EX2">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:19308"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29945">
+    <rdfs:label>"Gene Symbol for TENM4 [hgnc:29945]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:17995">
+    <rdfs:label>"Gene Symbol for TRPM6 [hgnc:17995]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2952">
+    <rdfs:label>"Gene Symbol for DNAH8 [hgnc:2952]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O60287">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:17344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q460N5">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:29232"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:9099">
+    <rdfs:label>"Gene Symbol for PLXNA1 [hgnc:9099]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:1090">
+    <rdfs:label>"Gene Symbol for DST [hgnc:1090]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q63HN8">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:14539"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9HC84">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:7516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q7Z406">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:23212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:11226">
+    <rdfs:label>"Gene Symbol for SPG11 [hgnc:11226]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5VT06">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:24238"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:18127">
+    <rdfs:label>"Gene Symbol for TUBGCP6 [hgnc:18127]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9C0G6">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:2951"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29071">
+    <rdfs:label>"Gene Symbol for VWA8 [hgnc:29071]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9BYW2">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:18420"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:9015">
+    <rdfs:label>"Gene Symbol for PKDREJ [hgnc:9015]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q99973">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:11726"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q92614">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:31104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:3604">
+    <rdfs:label>"Gene Symbol for FBN2 [hgnc:3604]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q6N022">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:29945"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q14686">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:15936"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:11726">
+    <rdfs:label>"Gene Symbol for TEP1 [hgnc:11726]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P35556">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:3604"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:17084">
+    <rdfs:label>"Gene Symbol for SYNE2 [hgnc:17084]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q13129">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:10025"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:23725">
+    <rdfs:label>"Gene Symbol for ARHGAP21 [hgnc:23725]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:23483">
+    <rdfs:label>"Gene Symbol for DOCK11 [hgnc:23483]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:28065">
+    <rdfs:label>"Gene Symbol for FER1L6 [hgnc:28065]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q15413">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:10485"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P51587">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:1101"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:26611">
+    <rdfs:label>"Gene Symbol for HECTD4 [hgnc:26611]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:10485">
+    <rdfs:label>"Gene Symbol for RYR3 [hgnc:10485]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:23399">
+    <rdfs:label>"Gene Symbol for FREM1 [hgnc:23399]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8TF72">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:30422"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:26901">
+    <rdfs:label>"Gene Symbol for OTOGL [hgnc:26901]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O95996">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:24036"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P35499">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:10591"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:17399">
+    <rdfs:label>"Gene Symbol for ARHGAP32 [hgnc:17399]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q7Z442">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:21715"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:26980">
+    <rdfs:label>"Gene Symbol for FAM186A [hgnc:26980]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9P2P1">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:20165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q99250">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:10588"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q7Z7A1">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:1858"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8TDX9">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:18053"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q70CQ2">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:20066"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P12111">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:2213"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:14906">
+    <rdfs:label>"Gene Symbol for NIN [hgnc:14906]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:30422">
+    <rdfs:label>"Gene Symbol for SHROOM3 [hgnc:30422]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q92508">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:28993"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29021">
+    <rdfs:label>"Gene Symbol for CEP290 [hgnc:29021]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:29187">
+    <rdfs:label>"Gene Symbol for SETD1B [hgnc:29187]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q2WGJ9">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:28065"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:11275">
+    <rdfs:label>"Gene Symbol for SPTBN1 [hgnc:11275]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q92538">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:4181"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:9968">
+    <rdfs:label>"Gene Symbol for REV3L [hgnc:9968]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:8736">
+    <rdfs:label>"Gene Symbol for PCNXL2 [hgnc:8736]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8N4C6">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:14906"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:2937">
+    <rdfs:label>"Gene Symbol for DMXL1 [hgnc:2937]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:18053">
+    <rdfs:label>"Gene Symbol for PKD1L1 [hgnc:18053]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:13028">
+    <rdfs:label>"Gene Symbol for ZNF236 [hgnc:13028]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q13439">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:4427"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5HYC2">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:23378"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:14132">
+    <rdfs:label>"Gene Symbol for DOCK9 [hgnc:14132]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:35412">
+    <rdfs:label>"Gene Symbol for EML6 [hgnc:35412]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5VU43">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:15580"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/hgnc:7516">
+    <rdfs:label>"Gene Symbol for MUC5B [hgnc:7516]"@en</rdfs:label>
+    <rdf:type rdf:resource="http://openlifedata.org/hgnc_vocabulary:Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O43149">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:29027"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8WXH0">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:17084"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A6NE01">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:26980"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5H8C1">
+    <rdf:type rdf:resource="http://biordf.org/ontologies/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource.owl#ServiceOutput"/>
+    <ns1:x-uniprot-inverse rdf:resource="http://openlifedata.org/hgnc:23399"/>
+  </rdf:Description>
+</rdf:RDF>

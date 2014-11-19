@@ -1,0 +1,573 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "", 
+    "format-version": "0.1", 
+    "name": "PeerJ OpenLifeData SADI", 
+    "steps": {
+        "0": {
+            "annotation": "", 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "Input Dataset"
+                }
+            ], 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 328, 
+                "top": 282
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"Input Dataset\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": []
+        }, 
+        "1": {
+            "annotation": "", 
+            "id": 1, 
+            "input_connections": {
+                "input": {
+                    "id": 0, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Convert", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 330, 
+                "top": 396
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "Convert characters1", 
+            "tool_state": "{\"__page__\": 0, \"convert_from\": \"\\\"s\\\"\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"input\": \"null\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "2": {
+            "annotation": "", 
+            "id": 2, 
+            "input_connections": {
+                "input": {
+                    "id": 1, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Remove beginning", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "input"
+                }
+            ], 
+            "position": {
+                "left": 328, 
+                "top": 526
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "Remove beginning1", 
+            "tool_state": "{\"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"num_lines\": \"\\\"1\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "3": {
+            "annotation": "", 
+            "id": 3, 
+            "input_connections": {
+                "input": {
+                    "id": 2, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Add column", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "input"
+                }
+            ], 
+            "position": {
+                "left": 326, 
+                "top": 660
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "addValue", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"exp\": \"\\\"http://openlifedata.org/uniprot:\\\"\", \"iterate\": \"\\\"no\\\"\", \"input\": \"null\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "4": {
+            "annotation": "", 
+            "id": 4, 
+            "input_connections": {
+                "input1": {
+                    "id": 3, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Merge Columns", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 330, 
+                "top": 784
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "mergeCols1", 
+            "tool_state": "{\"__page__\": 0, \"input1\": \"null\", \"__rerun_remap_job_id__\": null, \"col2\": \"{\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": \\\"1\\\"}\", \"col1\": \"{\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": \\\"2\\\"}\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"columns\": \"[]\"}", 
+            "tool_version": "1.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "5": {
+            "annotation": "", 
+            "id": 5, 
+            "input_connections": {
+                "input": {
+                    "id": 4, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Cut", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 330, 
+                "top": 898
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "Cut1", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"delimiter\": \"\\\"T\\\"\", \"columnList\": \"\\\"c3\\\"\", \"input\": \"null\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": "1.0.2", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "6": {
+            "annotation": "", 
+            "id": 6, 
+            "input_connections": {
+                "input": {
+                    "id": 5, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Add column", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "input"
+                }
+            ], 
+            "position": {
+                "left": 674, 
+                "top": 276
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "addValue", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"exp\": \"\\\"http://openlifedata.org/uniprot_vocabulary:Resource\\\"\", \"iterate\": \"\\\"no\\\"\", \"input\": \"null\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "7": {
+            "annotation": "", 
+            "id": 7, 
+            "input_connections": {
+                "input": {
+                    "id": 5, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Add column", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "input"
+                }
+            ], 
+            "position": {
+                "left": 668, 
+                "top": 722
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "addValue", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"exp\": \"\\\"http://purl.oclc.org/SADI/LSRN/UniProt_Record\\\"\", \"iterate\": \"\\\"no\\\"\", \"input\": \"null\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "8": {
+            "annotation": "", 
+            "id": 8, 
+            "input_connections": {
+                "input_file": {
+                    "id": 6, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Tab-to-RDF", 
+            "outputs": [
+                {
+                    "name": "output_file", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 676, 
+                "top": 398
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/sem4j/sparql_tools/tab2rdf/0.1", 
+            "tool_state": "{\"__page__\": 0, \"triples\": \"[{\\\"__index__\\\": 0, \\\"o_col\\\": {\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": \\\"2\\\"}, \\\"o_type\\\": \\\"False\\\", \\\"s_col\\\": {\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": \\\"1\\\"}, \\\"p_val\\\": \\\"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\\\"}]\", \"input_file\": \"null\", \"output_format\": \"\\\"ntriples\\\"\", \"namespace\": \"{\\\"choose_namespace\\\": \\\"none\\\", \\\"__current_case__\\\": 1}\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null}", 
+            "tool_version": "0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "9": {
+            "annotation": "", 
+            "id": 9, 
+            "input_connections": {
+                "input_file": {
+                    "id": 7, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Tab-to-RDF", 
+            "outputs": [
+                {
+                    "name": "output_file", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 670, 
+                "top": 840
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/sem4j/sparql_tools/tab2rdf/0.1", 
+            "tool_state": "{\"__page__\": 0, \"triples\": \"[{\\\"__index__\\\": 0, \\\"o_col\\\": {\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": \\\"2\\\"}, \\\"o_type\\\": \\\"False\\\", \\\"s_col\\\": {\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": \\\"1\\\"}, \\\"p_val\\\": \\\"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\\\"}]\", \"input_file\": \"null\", \"output_format\": \"\\\"ntriples\\\"\", \"namespace\": \"{\\\"choose_namespace\\\": \\\"none\\\", \\\"__current_case__\\\": 1}\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null}", 
+            "tool_version": "0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "10": {
+            "annotation": "", 
+            "id": 10, 
+            "input_connections": {
+                "input_file": {
+                    "id": 8, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "RDF Format", 
+            "outputs": [
+                {
+                    "name": "output_file", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 674, 
+                "top": 524
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/sem4j/sparql_tools/rapper/0.1", 
+            "tool_state": "{\"__page__\": 0, \"input_format\": \"\\\"ntriples\\\"\", \"input_file\": \"null\", \"output_format\": \"\\\"rdfxml\\\"\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null}", 
+            "tool_version": "0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "11": {
+            "annotation": "", 
+            "id": 11, 
+            "input_connections": {
+                "input_file": {
+                    "id": 9, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "RDF Format", 
+            "outputs": [
+                {
+                    "name": "output_file", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 670, 
+                "top": 946
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/sem4j/sparql_tools/rapper/0.1", 
+            "tool_state": "{\"__page__\": 0, \"input_format\": \"\\\"ntriples\\\"\", \"input_file\": \"null\", \"output_format\": \"\\\"rdfxml\\\"\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null}", 
+            "tool_version": "0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "12": {
+            "annotation": "", 
+            "id": 12, 
+            "input_connections": {
+                "input": {
+                    "id": 10, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "SADI services generic caller", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 960, 
+                "top": 276
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "sadi_generic", 
+            "tool_state": "{\"url\": \"\\\"http://biordf.org/cgi-bin/SADI/OpenLifeData2SADI/SADI/hgnc/uniprot_vocabulary_Resource_hgnc_vocabulary_x-uniprot-inverse_hgnc_vocabulary_Resource\\\"\", \"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "0.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "13": {
+            "annotation": "", 
+            "id": 13, 
+            "input_connections": {
+                "input": {
+                    "id": 11, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "SADI services generic caller", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 926, 
+                "top": 954
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "sadi_generic", 
+            "tool_state": "{\"url\": \"\\\"http://dev.biordf.net/~kawas/cgi-bin/getdbSNPRecordByUniprotID\\\"\", \"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "0.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "14": {
+            "annotation": "", 
+            "id": 14, 
+            "input_connections": {
+                "input": {
+                    "id": 12, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "SADI services generic caller", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 966, 
+                "top": 426
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "sadi_generic", 
+            "tool_state": "{\"url\": \"\\\"http://biordf.org/cgi-bin/SADI/OpenLifeData2SADI/SADI/hgnc/hgnc_vocabulary_Resource_hgnc_vocabulary_x-omim_omim_vocabulary_Gene\\\"\", \"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "0.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "15": {
+            "annotation": "", 
+            "id": 15, 
+            "input_connections": {
+                "input": {
+                    "id": 14, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "SADI services generic caller", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 966, 
+                "top": 548
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "sadi_generic", 
+            "tool_state": "{\"url\": \"\\\"http://biordf.org/cgi-bin/SADI/OpenLifeData2SADI/SADI/omim/omim_vocabulary_Gene_omim_vocabulary_article_pubmed_vocabulary_PubMedRecord\\\"\", \"input\": \"null\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__page__\": 0}", 
+            "tool_version": "0.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "16": {
+            "annotation": "", 
+            "id": 16, 
+            "input_connections": {
+                "input_files_0|input_file": {
+                    "id": 10, 
+                    "output_name": "output_file"
+                }, 
+                "input_files_1|input_file": {
+                    "id": 11, 
+                    "output_name": "output_file"
+                }, 
+                "input_files_2|input_file": {
+                    "id": 13, 
+                    "output_name": "output"
+                }, 
+                "input_files_3|input_file": {
+                    "id": 12, 
+                    "output_name": "output"
+                }, 
+                "input_files_4|input_file": {
+                    "id": 14, 
+                    "output_name": "output"
+                }, 
+                "input_files_5|input_file": {
+                    "id": 15, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Merge RDF Graphs", 
+            "outputs": [
+                {
+                    "name": "output_file", 
+                    "type": "rdf"
+                }
+            ], 
+            "position": {
+                "left": 1340, 
+                "top": 504
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "mergeRDFgraphs", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"input_files\": \"[{\\\"__index__\\\": 0, \\\"input_file\\\": null}, {\\\"__index__\\\": 1, \\\"input_file\\\": null}, {\\\"__index__\\\": 2, \\\"input_file\\\": null}, {\\\"__index__\\\": 3, \\\"input_file\\\": null}, {\\\"__index__\\\": 4, \\\"input_file\\\": null}, {\\\"__index__\\\": 5, \\\"input_file\\\": null}]\"}", 
+            "tool_version": "0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "17": {
+            "annotation": "", 
+            "id": 17, 
+            "input_connections": {
+                "ontology": {
+                    "id": 16, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Execute an SPARQL query against an RDF file", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "html"
+                }
+            ], 
+            "position": {
+                "left": 1648, 
+                "top": 272
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "SPARQLGalaxy", 
+            "tool_state": "{\"out_format\": \"\\\"html\\\"\", \"__page__\": 0, \"pasted_query\": \"\\\"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX sio_resource: <http://semanticscience.org/resource/> SELECT ?protein ?label ?SNP WHERE { ?protein rdf:type <http://openlifedata.org/uniprot_vocabulary:Resource> . ?protein sio_resource:SIO_000272 ?SNP . ?protein ?prot2hgnc ?hgnc . ?hgnc ?hgnc2omim ?omim . ?omim ?omim2pubmed ?pubmed . ?pubmed rdfs:label ?label . FILTER (regex (?label, 'brain'))}\\\"\", \"__rerun_remap_job_id__\": null, \"ontology\": \"null\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": "1.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "18": {
+            "annotation": "", 
+            "id": 18, 
+            "input_connections": {
+                "ontology": {
+                    "id": 16, 
+                    "output_name": "output_file"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Execute an SPARQL query against an RDF file", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "html"
+                }
+            ], 
+            "position": {
+                "left": 1646, 
+                "top": 962
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "SPARQLGalaxy", 
+            "tool_state": "{\"out_format\": \"\\\"tab\\\"\", \"__page__\": 0, \"pasted_query\": \"\\\"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX sio_resource: <http://semanticscience.org/resource/> SELECT ?protein ?label ?SNP WHERE { ?protein rdf:type <http://openlifedata.org/uniprot_vocabulary:Resource> . ?protein sio_resource:SIO_000272 ?SNP . ?protein ?prot2hgnc ?hgnc . ?hgnc ?hgnc2omim ?omim . ?omim ?omim2pubmed ?pubmed . ?pubmed rdfs:label ?label . FILTER (regex (?label, 'brain'))}\\\"\", \"__rerun_remap_job_id__\": null, \"ontology\": \"null\", \"chromInfo\": \"\\\"/home/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": "1.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }
+    }
+}

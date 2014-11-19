@@ -1,5 +1,7 @@
 *.class
 
+use_cases/possible_use_case/
+
 log
 
 .project

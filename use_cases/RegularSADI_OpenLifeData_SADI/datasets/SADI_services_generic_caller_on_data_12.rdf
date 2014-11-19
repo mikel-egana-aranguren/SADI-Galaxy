@@ -1,0 +1,3007 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#"
+    xmlns:a="http://semanticscience.org/resource/"
+    xmlns:j.1="http://purl.oclc.org/SADI/LSRN/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UPQ9">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs6001854"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17001767"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2291628">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4844609">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1799954</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q96RT7">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17248287"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4838865"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs5771107"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4838864"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9Y4D8">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs6697155">
+    <a:SIO_000008 rdf:nodeID="A3"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A4UGR9">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3750425">
+    <a:SIO_000008 rdf:nodeID="A4"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2285302">
+    <a:SIO_000008 rdf:nodeID="A5"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:D3DSQ0">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs462779">
+    <a:SIO_000008 rdf:nodeID="A6"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11191274">
+    <a:SIO_000008 rdf:nodeID="A7"/>
+    <a:SIO_000008 rdf:nodeID="A8"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q59GD8">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P10586">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3748796"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3748800"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1065775"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs412750">
+    <a:SIO_000008 rdf:nodeID="A9"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3782356">
+    <a:SIO_000008 rdf:nodeID="A10"/>
+    <a:SIO_000008 rdf:nodeID="A11"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q03164">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs9332745"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs693598"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs9332838"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1064911"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs518835"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs9332747"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E7ER45">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <a:SIO_000300>rs17510879</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17248287">
+    <a:SIO_000008 rdf:nodeID="A13"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E9PQ73">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs9967806">
+    <a:SIO_000008 rdf:nodeID="A14"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q96JB1">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <a:SIO_000300>rs2236316</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A3KMH1">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs10982134">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E9PBJ0">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs693598">
+    <a:SIO_000008 rdf:nodeID="A17"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs848209">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A18"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2070065</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3795522">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2270898">
+    <a:SIO_000008 rdf:nodeID="A21"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1801426</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4838864">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UGU0">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17002890"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17002888"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs5758651"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs6002656"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs10851894">
+    <a:SIO_000008 rdf:nodeID="A24"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B2RWN9">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q53TY4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs13338527">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A25"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs17539658</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <a:SIO_000300>rs2236316</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs5758651">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2808770">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3748800">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs7307793">
+    <a:SIO_000008 rdf:nodeID="A31"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1760897">
+    <a:SIO_000008 rdf:nodeID="A32"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2227944">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs848208">
+    <a:SIO_000008 rdf:nodeID="A34"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs712270">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B0I1R4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9C0F0">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A36">
+    <a:SIO_000300>rs9840779</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4838865">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:F8VPD4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:F8W8Y7">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9P281">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A38">
+    <a:SIO_000300>rs7356934</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2282303">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17539658">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9BZ29">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q53SY7">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11559294"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A40">
+    <a:SIO_000300>rs12882191</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A41">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs11571746</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs10093885">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A42"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3796164">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs9332838">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1760898">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A45"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2227943">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A46"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs16879534">
+    <a:SIO_000008 rdf:nodeID="A47"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17352867">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11064012">
+    <a:SIO_000008 rdf:nodeID="A49"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs16999334">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11559294">
+    <a:SIO_000008 rdf:nodeID="A51"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9BY89">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O15078">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs7307793"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11104729"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q03001">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A52">
+    <a:SIO_000300>rs11718848</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs454755">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A53"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A54">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs17510886</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q68CT4">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs12632456"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17058845"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2276742"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1131356"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs6587667">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A55"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9NQT8">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2282304">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A56"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2236364">
+    <a:SIO_000008 rdf:nodeID="A57"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:J3KNV1">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:G8JLL9">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:F8W7S2">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A58">
+    <a:SIO_000300>rs964307</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3736252">
+    <a:SIO_000008 rdf:nodeID="A59"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:D3DT72">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A60">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1046984</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <a:SIO_000300>rs3750425</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q2HXI4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2058194">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A61"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4735133">
+    <a:SIO_000008 rdf:nodeID="A62"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17510893">
+    <a:SIO_000008 rdf:nodeID="A63"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17539609">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1673407">
+    <a:SIO_000008 rdf:nodeID="A65"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A66">
+    <a:SIO_000300>rs2104978</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A67">
+    <a:SIO_000300>rs2270724</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17635381">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A68"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P51610">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1051152"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs16879693">
+    <a:SIO_000008 rdf:nodeID="A69"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3748695">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A70"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3204953">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A71"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1258">
+    <a:SIO_000008 rdf:nodeID="A72"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9HCM3">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A73">
+    <a:SIO_000300>rs1673408</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1800378">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A74"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1803382">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A75"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A76">
+    <a:SIO_000300>rs2274924</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q09472">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs7285319"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs20551"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1046088"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs16960959">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A77"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17023281">
+    <a:SIO_000008 rdf:nodeID="A78"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs144848">
+    <a:SIO_000008 rdf:nodeID="A79"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4986860">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A80"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4363527">
+    <a:SIO_000008 rdf:nodeID="A81"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A82"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A45">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1760898</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17539685">
+    <a:SIO_000008 rdf:nodeID="A83"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E9PBA5">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O60229">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2289838"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A84">
+    <a:SIO_000300>rs2270716</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs7293071">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A85"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A86">
+    <a:SIO_000300>rs4987117</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs7048607">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3795523">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A88"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A42">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs10093885</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A89">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs6691117</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2276742">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A90"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2213591">
+    <a:SIO_000008 rdf:nodeID="A91"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q08E86">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:J3KN01">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A92">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3218578</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5D862">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2282302"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs16842865"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs6587667"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs12411129"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs16833974"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2282304"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1858484"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3818831"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2282303"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B0I1R8">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A93">
+    <a:SIO_000300>rs17001767</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A94">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3732486</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A95">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1713457</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A96">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1064210</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2567705">
+    <a:SIO_000008 rdf:nodeID="A97"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs6504191">
+    <a:SIO_000008 rdf:nodeID="A98"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A99">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs16879428</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A100">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs4987046</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q96JI7">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8TDM6">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3795524">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A101"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11690358">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q01082">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2567706">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A103"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs854777">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UKA4">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2236364"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17063167"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A105">
+    <a:SIO_000300>rs2274567</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q96T58">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs848208"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs848210"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs848209"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs9725423"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:F2Z2U4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3795514">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A106"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A107">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1713449</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2274567">
+    <a:SIO_000008 rdf:nodeID="A105"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2843493">
+    <a:SIO_000008 rdf:nodeID="A108"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A63">
+    <a:SIO_000300>rs17510893</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17510900">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A109"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P04275">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11064002"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17419546"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2229446"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1800383"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs216311"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1800385"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11064012"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs216321"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11537643"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs16932374"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1063856"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1800378"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A110">
+    <a:SIO_000300>rs6001854</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9Y485">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3737002">
+    <a:SIO_000008 rdf:nodeID="A111"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <a:SIO_000300>rs3782356</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A112">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3732485</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P49454">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3795524"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2666839"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs438034"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3795518"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17023281"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3795514"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3795517"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3795523"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs7289"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3790647"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3748695"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3748697"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3790646"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3795519"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs12058704"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs6697155"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs335524"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2070065"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3795522"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A113">
+    <a:SIO_000300>rs9833275</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs6649271">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A114"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A115">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs438034</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <a:SIO_000300>rs3782356</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs6697155</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A116">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1713456</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11080134">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A117"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs169547">
+    <a:SIO_000008 rdf:nodeID="A118"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:H0YGL9">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A82">
+    <a:SIO_000300>rs4363527</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A119">
+    <a:SIO_000300>rs12717411</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E9PEL9">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11571707">
+    <a:SIO_000008 rdf:nodeID="A120"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9C0D2">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P25054">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2229996"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4987109"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs459552"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <a:SIO_000300>rs11191274</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A121">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2296160</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A122">
+    <a:SIO_000300>rs8051003</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2686817">
+    <a:SIO_000008 rdf:nodeID="A123"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs6002656">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A124"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs7285319">
+    <a:SIO_000008 rdf:nodeID="A125"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11537643">
+    <a:SIO_000008 rdf:nodeID="A126"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O00763">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A127">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1800385</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs12553965">
+    <a:SIO_000008 rdf:nodeID="A128"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17539692">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A129"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2567707">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A130"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1713457">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A95"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A131">
+    <a:SIO_000300>rs3741626</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A132">
+    <a:SIO_000300>rs9725423</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A133">
+    <a:SIO_000300>rs9840993</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A78">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs17023281</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9BX84">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3750425"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2274922"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2274924"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E9PAT2">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs12632456">
+    <a:SIO_000008 rdf:nodeID="A134"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A135">
+    <a:SIO_000300>rs2228035</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs216311">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A136"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UKN7">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2272571"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs16960959"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2955365"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs854777"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs712270"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8IZD2">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q96QE3">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11080134"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3816780"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs9910051"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3764421"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17826219"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11657270"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A81">
+    <a:SIO_000300>rs4363527</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A123">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2686817</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q6ZU64">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs9967806"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs9653262"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:D6W5H5">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A108">
+    <a:SIO_000300>rs2843493</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A75">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1803382</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1713456">
+    <a:SIO_000008 rdf:nodeID="A116"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17211404">
+    <a:SIO_000008 rdf:nodeID="A137"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A138">
+    <a:SIO_000300>rs17419546</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs335524">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A139"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A140">
+    <a:SIO_000300>rs3741626</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A43">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3796164</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q09666">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <a:SIO_000300>rs1760897</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs608433">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A141"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A142">
+    <a:SIO_000300>rs17131915</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:F2Z2U8">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17047660">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17510879">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:F8W9J4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q4LDE5">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <a:SIO_000300>rs13338527</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2285302</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A144">
+    <a:SIO_000300>rs459552</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs6008384">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A145"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A136">
+    <a:SIO_000300>rs216311</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A146">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3748697</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs16879428">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A99"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3816780">
+    <a:SIO_000008 rdf:nodeID="A147"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A148">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2229116</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A149">
+    <a:SIO_000300>rs17092079</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A90">
+    <a:SIO_000300>rs2276742</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs458017">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A150"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs9653262">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A151"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17510886">
+    <a:SIO_000008 rdf:nodeID="A54"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A152">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3790647</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A153">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2229446</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17001767">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A93"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs370429">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A154"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1673408">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A73"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A155">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs4987048</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs412750</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A156">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs938886</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17047661">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A157"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <a:SIO_000300>rs11191274</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:T1R7N1">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5VT06">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A74">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1800378</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A158">
+    <a:SIO_000300>rs6495228</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs20551">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A159"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11571746">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A41"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A160">
+    <a:SIO_000300>rs766173</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9BYW2">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9C0G6">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11571769">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A161"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A162">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs11657270</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A163">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1783174</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1064210">
+    <a:SIO_000008 rdf:nodeID="A96"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A164"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A165">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs17058845</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3218600">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A166"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q14686">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17092079"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs6060022"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <a:SIO_000300>rs10851894</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A167">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2666839</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A168">
+    <a:SIO_000300>rs12882191</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:F8VU39">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A6NIW2">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A169">
+    <a:SIO_000300>rs4987109</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q4LE79">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P51587">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11571707"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4987117"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1799944"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1799951"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4986858"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs766173"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1046984"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs169547"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2219594"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4987046"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4987047"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2227943"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4986860"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs144848"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11571746"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2227944"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1799954"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11571769"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4986859"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1801426"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4987048"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A170">
+    <a:SIO_000300>rs1799944</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs16932374">
+    <a:SIO_000008 rdf:nodeID="A171"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2282302">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A172"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs7009117">
+    <a:SIO_000008 rdf:nodeID="A173"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A174">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1783147</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A175">
+    <a:SIO_000300>rs2289838</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E7ENL6">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8TF72">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A134">
+    <a:SIO_000300>rs12632456</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs216321">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A176"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A177">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2077268</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A178">
+    <a:SIO_000300>rs1131356</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5XUU0">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs12882191"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2073347"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs12717411"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2236316"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:W5ZR30">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A179">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3790646</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs6001854">
+    <a:SIO_000008 rdf:nodeID="A110"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17058845">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3218579">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A180"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B0I1S1">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A181">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2073347</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A182">
+    <a:SIO_000300>rs2229996</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O95996">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs848210">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A183"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P35499">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs6504191"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2058194"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1783174">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:F5H269">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs571616">
+    <a:SIO_000008 rdf:nodeID="A184"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A118">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs169547</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A185">
+    <a:SIO_000300>rs17211369</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q99250">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17183814"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2228988"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q7Z7A1">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3764421">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A186"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11064002">
+    <a:SIO_000008 rdf:nodeID="A187"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E9PNZ4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8TDX9">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17131915"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2290386"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs13231277"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs10274334"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1470859"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11972142"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2686817"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3218578">
+    <a:SIO_000008 rdf:nodeID="A92"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:G3XAE2">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q70CQ2">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A104">
+    <a:SIO_000300>rs854777</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P12111">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11896521"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11690358"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2270669"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17352867"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A139">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs335524</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A188">
+    <a:SIO_000300>rs2290901</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A128">
+    <a:SIO_000300>rs12553965</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q92508">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs8051003"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1803382"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs13338527"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2290901"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A189">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1760904</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs612969">
+    <a:SIO_000008 rdf:nodeID="A190"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q2WGJ9">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A191">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2073347</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A192">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs17511539</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q92538">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11191274"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4363527"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A193">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs4986859</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8N4C6">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs12882191"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2073347"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs12717411"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2236316"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11657270">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A162"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A65">
+    <a:SIO_000300>rs1673407</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A194">
+    <a:SIO_000300>rs4780144</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17131915">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A142"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2236316">
+    <a:SIO_000008 rdf:nodeID="A15"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q13439">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11718848"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs9840779"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5HYC2">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs12553965"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17579502"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs459552">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A144"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A101">
+    <a:SIO_000300>rs3795524</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs10274334">
+    <a:SIO_000008 rdf:nodeID="A195"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A176">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs216321</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2228035">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A135"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs7356934">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1064911">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A196"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A197">
+    <a:SIO_000300>rs17579502</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A143">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs17047660</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O43149">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A198">
+    <a:SIO_000300>rs12717411</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8WXH0">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q6ZMW3">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A199">
+    <a:SIO_000300>rs17539651</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A200">
+    <a:SIO_000300>rs5771107</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B3W695">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1051152">
+    <a:SIO_000008 rdf:nodeID="A201"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2290901">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A188"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A202">
+    <a:SIO_000300>rs1046088</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs518835">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A203"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q86UQ4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O60673">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3218599"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17510900"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3218579"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17511539"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3218606"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17539609"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17539692"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3218595"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17510879"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3218600"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs458017"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17539658"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17510886"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17510893"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs7356934"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17539685"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs462779"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3218578"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17539651"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3204953"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11972142">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A204"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A205">
+    <a:SIO_000300>rs3794873</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1760904">
+    <a:SIO_000008 rdf:nodeID="A189"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A87">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs7048607</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1713449">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A107"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2272571">
+    <a:SIO_000008 rdf:nodeID="A206"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:H9KVB4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2229116">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A148"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A7Y9J9">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4780144">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A194"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A207">
+    <a:SIO_000300>rs2303603</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B5MDV5">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs6691117">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2304380">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A208"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs520805">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A209"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A150">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs458017</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5JB40">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A210">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs17514547</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:F5H4B5">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A211">
+    <a:SIO_000300>rs2276211</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B7ZLH8">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A59">
+    <a:SIO_000300>rs3736252</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A212">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3218599</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A161">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs11571769</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3818565">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A213"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1046984">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A60"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs7289">
+    <a:SIO_000008 rdf:nodeID="A214"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <a:SIO_000300>rs7307793</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q01484">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17511539">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A192"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A98">
+    <a:SIO_000300>rs6504191</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9P2D8">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A183">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs848210</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <a:SIO_000300>rs10982134</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3218595">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A215"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs9840779">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A36"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs526433">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A216"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:T1R7Q9">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2077268">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A177"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A71">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3204953</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:J3KPF0">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A80">
+    <a:SIO_000300>rs4986860</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs12058704">
+    <a:SIO_000008 rdf:nodeID="A217"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs154001">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A218"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2303603">
+    <a:SIO_000008 rdf:nodeID="A207"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A219">
+    <a:SIO_000300>rs11104729</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q6ZS30">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2228988">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A220"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A141">
+    <a:SIO_000300>rs608433</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1063856">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A221"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2808770</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs8051003">
+    <a:SIO_000008 rdf:nodeID="A122"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q6ZR08">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9P2P6">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E7EUA6">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <a:SIO_000300>rs2291628</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs16842865">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A222"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UIW2">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A215">
+    <a:SIO_000300>rs3218595</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A172">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2282302</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2270669">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A223"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:J3QK84">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5VU65">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5T1R4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2270716">
+    <a:SIO_000008 rdf:nodeID="A84"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A109">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs17510900</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A224">
+    <a:SIO_000300>rs2219594</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A195">
+    <a:SIO_000300>rs10274334</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17211369">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A185"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B1AQK6">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5CZ96">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q86WI1">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs10093885"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs964307"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1673407"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs16879534"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1783147"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1783174"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs16879693"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1673408"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4735133"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs16879659"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs16879428"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A7KAX9">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3794873">
+    <a:SIO_000008 rdf:nodeID="A205"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9NTG1">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs7291444"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs6519993"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs7293071"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs6008384"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A222">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs16842865</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2307109">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3732487">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A226"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A49">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs11064012</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A227">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs208753</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A228">
+    <a:SIO_000300>rs6060022</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3790646">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A179"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8IZX4">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1258"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17219559"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A51">
+    <a:SIO_000300>rs11559294</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A221">
+    <a:SIO_000300>rs1063856</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A229">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs9332747</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O15050">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <a:SIO_000300>rs4838864</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A39">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2282303</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A230">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3738467</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4987109">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A169"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A33">
+    <a:SIO_000300>rs2227944</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1858484">
+    <a:SIO_000008 rdf:nodeID="A231"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A129">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs17539692</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A232">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs13231277</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A233">
+    <a:SIO_000300>rs1065775</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O75643">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O75923">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2303603"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs6519993">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A234"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:F8W9C3">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs13231277">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A232"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3732486">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A94"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A235">
+    <a:SIO_000300>rs2274922</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E7EPM4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A68">
+    <a:SIO_000300>rs17635381</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs10889205">
+    <a:SIO_000008 rdf:nodeID="A236"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17514547">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A210"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17219559">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A237"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3790647">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A152"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q15746">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs9840993"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs9833275"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3732485"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3732486"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3732487"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3796164"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A61">
+    <a:SIO_000300>rs2058194</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A70">
+    <a:SIO_000300>rs3748695</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E9PG32">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A238">
+    <a:SIO_000300>rs1800383</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A239">
+    <a:SIO_000300>rs9332745</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A159">
+    <a:SIO_000300>rs20551</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P08519">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17002888">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A240"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1470859">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A241"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A231">
+    <a:SIO_000300>rs1858484</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2228561">
+    <a:SIO_000008 rdf:nodeID="A242"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1131356">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A178"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <a:SIO_000300>rs17248287</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17419546">
+    <a:SIO_000008 rdf:nodeID="A138"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5T5U3">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A85">
+    <a:SIO_000300>rs7293071</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A180">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3218579</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A243">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2290386</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A244">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs16879659</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A79">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs144848</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3732485">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A112"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A126">
+    <a:SIO_000300>rs11537643</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3218599">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs438034">
+    <a:SIO_000008 rdf:nodeID="A115"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A173">
+    <a:SIO_000300>rs7009117</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A245">
+    <a:SIO_000300>rs3748796</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q15154">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs208753"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17635381"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2285302"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs412750"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs454755"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs7009117"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs370429"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17514547"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B2RUT8">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs16833974">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A246"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2229446">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A153"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A103">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2567706</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A46">
+    <a:SIO_000300>rs2227943</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A247">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1799951</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A106">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3795514</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs7291444">
+    <a:SIO_000008 rdf:nodeID="A248"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2666839">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A167"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A249">
+    <a:SIO_000300>rs4986858</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2229996">
+    <a:SIO_000008 rdf:nodeID="A182"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A125">
+    <a:SIO_000300>rs7285319</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1801426">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A22"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A117">
+    <a:SIO_000300>rs11080134</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A6NKB5">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A56">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2282304</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A166">
+    <a:SIO_000300>rs3218600</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3218606">
+    <a:SIO_000008 rdf:nodeID="A250"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q02388">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2228561"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A251">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs17111188</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A37">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs4838865</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8IZC6">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2241671"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2567706"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2567705"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2808770"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2567707"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3736252"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs7048607"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs10982134"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A250">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3218606</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A154">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs370429</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1760903">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A252"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A187">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs11064002</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs32209">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A253"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A216">
+    <a:SIO_000300>rs526433</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A30">
+    <a:SIO_000300>rs3748800</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A4FU77">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A171">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs16932374</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A34">
+    <a:SIO_000300>rs848208</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q69YN4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5JSL3">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <a:SIO_000300>rs3795522</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A254">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs4987047</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A120">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs11571707</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O14686">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3782356"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1064210"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11168831"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3741626"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A130">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2567707</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A196">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1064911</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A111">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3737002</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2296160">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs12882191">
+    <a:SIO_000008 rdf:nodeID="A40"/>
+    <a:SIO_000008 rdf:nodeID="A168"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9H251">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3795518">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A255"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs9910051">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A256"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3741626">
+    <a:SIO_000008 rdf:nodeID="A140"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A131"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A257">
+    <a:SIO_000300>rs11168831</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q92608">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2270898"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <a:SIO_000300>rs2270898</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17063167">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A258"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A7E2V4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A208">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2304380</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A248">
+    <a:SIO_000300>rs7291444</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q3ZCN5">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1783147">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A174"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A83">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs17539685</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs938886">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A156"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O75443">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs612969"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs526433"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs520805"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q6RI45">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P17927">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2274567"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3818565"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4844609"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2296160"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17047660"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs6691117"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3738467"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3737002"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17047661"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E9PC93">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17092079">
+    <a:SIO_000008 rdf:nodeID="A149"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2274922">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A235"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A218">
+    <a:SIO_000300>rs154001</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A147">
+    <a:SIO_000300>rs3816780</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:F5GZI5">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A203">
+    <a:SIO_000300>rs518835</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UPS6">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q12830">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UL36">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3794873"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2276211"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs608433"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs9725423">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A132"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3795517">
+    <a:SIO_000008 rdf:nodeID="A259"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A242">
+    <a:SIO_000300>rs2228561</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A258">
+    <a:SIO_000300>rs17063167</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A114">
+    <a:SIO_000300>rs6649271</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B7XCW9">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A47">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs16879534</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A201">
+    <a:SIO_000300>rs1051152</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A64">
+    <a:SIO_000300>rs17539609</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A234">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs6519993</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3738467">
+    <a:SIO_000008 rdf:nodeID="A230"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A256">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs9910051</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5CZC0">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E9PDY4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A184">
+    <a:SIO_000300>rs571616</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A252">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1760903</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q8TDI0">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2843493"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11896521">
+    <a:SIO_000008 rdf:nodeID="A260"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9UKZ4">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2213591"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs6649271"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs16999334"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <a:SIO_000300>rs693598</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A50">
+    <a:SIO_000300>rs16999334</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2070065">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17539651">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A199"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A57">
+    <a:SIO_000300>rs2236364</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs12411129">
+    <a:SIO_000008 rdf:nodeID="A261"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17002890">
+    <a:SIO_000008 rdf:nodeID="A262"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q58EX2">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2270716"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2270724"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A164">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1064210</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A217">
+    <a:SIO_000300>rs12058704</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A204">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs11972142</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A223">
+    <a:SIO_000300>rs2270669</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A72">
+    <a:SIO_000300>rs1258</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:H7BZ55">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A91">
+    <a:SIO_000300>rs2213591</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2073347">
+    <a:SIO_000008 rdf:nodeID="A181"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A191"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3748697">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2270724">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A67"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A186">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3764421</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q149P0">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11191274"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4363527"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A225">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2307109</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A213">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3818565</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A55">
+    <a:SIO_000300>rs6587667</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11168831">
+    <a:SIO_000008 rdf:nodeID="A263"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A257"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2274924">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4987048">
+    <a:SIO_000008 rdf:nodeID="A155"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:O60287">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2289838">
+    <a:SIO_000008 rdf:nodeID="A175"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A137">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs17211404</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <a:SIO_000300>rs4844609</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:F5H619">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A44">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs9332838</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q460N5">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A220">
+    <a:SIO_000300>rs2228988</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A236">
+    <a:SIO_000300>rs10889205</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A263">
+    <a:SIO_000300>rs11168831</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A88">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3795523</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A214">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs7289</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9HC84">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q63HN8">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4987117">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A86"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q7Z406">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:H0YA77">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A241">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs1470859</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A145">
+    <a:SIO_000300>rs6008384</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs462779</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A246">
+    <a:SIO_000300>rs16833974</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A157">
+    <a:SIO_000300>rs17047661</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1799954">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A264">
+    <a:SIO_000300>rs17826219</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2955365">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A265"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A253">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs32209</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3748796">
+    <a:SIO_000008 rdf:nodeID="A245"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A7E2Y5">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1046088">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A202"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A97">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2567705</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A259">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3795517</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A69">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs16879693</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A261">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs12411129</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs6495228">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A158"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4986858">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A249"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A53">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs454755</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:D3YHM4">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A266">
+    <a:SIO_000300>rs17183814</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B7ZMI1">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q99973">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1713457"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2104978"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1760898"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2228035"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17211369"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1713456"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1760903"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1760897"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1713449"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs938886"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17111188"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1760904"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs17211404"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q92614">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:F8W9F9">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q6N022">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A35">
+    <a:SIO_000300>rs712270</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A124">
+    <a:SIO_000300>rs6002656</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4987046">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B7ZM61">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2104978">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A66"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:P35556">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs571616"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2307109"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs32209"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2291628"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs154001"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs9332745">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A239"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:T1R7A8">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q13129">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs10889205"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B2RUT2">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1799951">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A247"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A260">
+    <a:SIO_000300>rs11896521</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A62">
+    <a:SIO_000300>rs4735133</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q15413">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs4780144"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs10851894"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2077268"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2229116"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs6495228"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs2304380"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs9833275">
+    <a:SIO_000008 rdf:nodeID="A113"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:J3QTQ0">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17111188">
+    <a:SIO_000008 rdf:nodeID="A251"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A255">
+    <a:SIO_000300>rs3795518</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs5771107">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A200"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A267">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2241671</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A268">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs3818831</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11104729">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A219"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17826219">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A264"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs964307">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A58"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A237">
+    <a:SIO_000300>rs17219559</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <a:SIO_000300>rs848209</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A206">
+    <a:SIO_000300>rs2272571</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4987047">
+    <a:SIO_000008 rdf:nodeID="A254"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A102">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs11690358</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs6060022">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:B7ZML1">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs4986859">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A193"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2241671">
+    <a:SIO_000008 rdf:nodeID="A267"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs9840993">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A133"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q7Z442">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:U3KQJ8">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs11718848">
+    <a:SIO_000008 rdf:nodeID="A52"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A269">
+    <a:SIO_000300>rs3795519</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A209">
+    <a:SIO_000300>rs520805</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs12717411">
+    <a:SIO_000008 rdf:nodeID="A198"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A119"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A240">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs17002888</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q9P2P1">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A77">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs16960959</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A151">
+    <a:SIO_000300>rs9653262</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2219594">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1800383">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A238"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs16879659">
+    <a:SIO_000008 rdf:nodeID="A244"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2290386">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A243"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1065775">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A233"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:K9LC76">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs208753">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A227"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <a:SIO_000300>rs5758651</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:I0B0K8">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs9332747">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A229"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:R4GNB2">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3818831">
+    <a:SIO_000008 rdf:nodeID="A268"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:E9PJ64">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17183814">
+    <a:SIO_000008 rdf:nodeID="A266"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A48">
+    <a:SIO_000300>rs17352867</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <a:SIO_000300>rs9967806</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A190">
+    <a:SIO_000300>rs612969</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:D3DPG0">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1799944">
+    <a:SIO_000008 rdf:nodeID="A170"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs2276211">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A211"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A262">
+    <a:SIO_000300>rs17002890</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs3795519">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A269"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A265">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+    <a:SIO_000300>rs2955365</a:SIO_000300>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A4D1A8">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q59FG6">
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3782356"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs1064210"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs11168831"/>
+    <a:SIO_000272 rdf:resource="http://lsrn.org/dbSNP:rs3741626"/>
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs766173">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs17579502">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A197"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A226">
+    <a:SIO_000300>rs3732487</a:SIO_000300>
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lsrn.org/dbSNP:rs1800385">
+    <rdf:type rdf:resource="http://purl.oclc.org/SADI/LSRN/dbSNP_Record"/>
+    <a:SIO_000008 rdf:nodeID="A127"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5VU43">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:Q5H8C1">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openlifedata.org/uniprot:A6NE01">
+    <rdf:type rdf:resource="http://dev.biordf.net/~kawas/owl/getdbSNPRecordByUniprotID.owl#getdbSNPRecordByUniprotID_Output"/>
+  </rdf:Description>
+</rdf:RDF>
