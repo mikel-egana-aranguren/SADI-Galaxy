@@ -107,6 +107,13 @@ Dependencies
 
 SADI-Galaxy is meant to work in a UNIX system with Bash and sed; it has been tested in Ubuntu and CentOS, with Java 1.7. Merge RDF Graphs depends on Python (Tested with 2.7.3.)
  and [RDFLib](https://github.com/RDFLib/rdflib) (Tested with 4.1.1).
+ 
+Publications mentioning SADI-Galaxy
+-----------------------------------
+
+Alejandro Rodríguez González, Alison Callahan, José Cruz-Toledo, Adrian Garcia, Mikel Egaña Aranguren, Michel Dumontier, Mark D. Wilkinson. Automatically exposing OpenLifeData via SADI semantic Web Services. Journal of Biomedical Semantics 2014, 5(1):46+. [doi:10.1186/2041-1480-5-46](http://dx.doi.org/doi:10.1186/2041-1480-5-46)
+
+Mikel Egaña Aranguren, Alejandro Rodríguez González, Mark D. Wilkinson. Executing SADI services in Galaxy. Journal of Biomedical Semantics 2014, 5(1):42+. [doi:10.1186/2041-1480-5-42](http://dx.doi.org/doi:10.1186/2041-1480-5-42)
 
 Funding
 -------
