@@ -4,10 +4,9 @@ SADI-Galaxy
 About
 -----
 
-SADI-Galaxy is able to query any [SADI](http://sadiframework.org/) registry and install, in a local [Galaxy](http://galaxyproject.org/) server, a wrapper for each of the retrieved SADI services. With SADI-Galaxy, the Galaxy web interface can be used to execute SADI services on their own or in combination with other Galaxy tools, to generate workflows. There is a public [Galaxy page](http://biordf.org:8983/u/mikel-egana-aranguren/p/sadi-galaxy-jbms-use-cases) with example use cases.
+SADI-Galaxy is able to query any [SADI](http://sadiframework.org/) registry and install, in a local [Galaxy](http://galaxyproject.org/) server, a wrapper for each of the retrieved SADI services. With SADI-Galaxy, the Galaxy web interface can be used to execute SADI services on their own or in combination with other Galaxy tools, to generate workflows. 
 
 ![http://zenodo.org/record/10181](http://zenodo.org/badge/4255/mikel-egana-aranguren/SADI-Galaxy.png "http://zenodo.org/record/10181")
-
 
 
 Usage
@@ -100,6 +99,11 @@ And then execute the query generator like this:
 `java -jar generate_sparql_queries.jar sparql/basequeries/publisher.sparql wilkinsonlab.info illuminae.com dev.biordf.net Cyber-ShARE sadiframework.org`
 
 This will generate a query for each publisher (wilkinsonlab.info, illuminae.com, dev.biordf.net, Cyber-ShARE, sadiframework.org). 
+
+Use cases
+---------
+
+There is a public [Galaxy page](http://biordf.org:8983/u/mikel-egana-aranguren/p/sadi-galaxy-jbms-use-cases) with example use cases (the use cases can also be found in this repository at `/use_cases`).
 
 
 Dependencies
