@@ -8,21 +8,22 @@ SADI-Galaxy is able to query any [SADI](http://sadiframework.org/) registry and 
 
 ![http://zenodo.org/record/10181](http://zenodo.org/badge/4255/mikel-egana-aranguren/SADI-Galaxy.png "http://zenodo.org/record/10181")
 
+Requirements
+------------
 
-Usage
------
+The main requirement is a working Galaxy server. SADI-Galaxy is meant to work in a UNIX system with Bash and sed; it has been tested in Ubuntu and CentOS, with Java 1.7. Merge RDF Graphs depends on Python (Tested with 2.7.3.) and [RDFLib](https://github.com/RDFLib/rdflib) (Tested with 4.1.1).
+
+Deployment
+----------
 
 The main function of SADI-Galaxy is to query a SADI registry and create, for each service, a Galaxy tool (a tool XML file and an executable, and an entry in the `tool_conf.xml` file). Those files will be copied to the appropriate places in your Galaxy server (the `galaxy-dist` directory resembles an actual Galaxy server setting so it is self-explanatory); additionally, SADI-Galaxy can be configured to automatically (try to) edit the `tool_conf.xml` file of your Galaxy server.
 
-The script `SADI-Galaxy.sh` is the principal tool; you should stop Galaxy, run it, and start Galaxy again for the SADI services to appear as part of the Galaxy interface. In order to configure SADI-Galaxy  
-
-
-`SADI-Galaxy.sh` can be used to generate the following Galaxy tools:
+The script `SADI-Galaxy.sh` is the principal tool; you should stop Galaxy, run it, and start Galaxy again for the SADI services to appear as part of the Galaxy interface. `SADI-Galaxy.sh` can be used to generate the following Galaxy tools:
 
 * SADI Galaxy Generic. This tool accepts any SADI service URI and an RDF input, and executes the SADI service with the RDF input, producing output RDF.
 * RDF Syntax Converter. This tool converts an RDF/XML file to N3, N-Triple, or, (more importantly for Galaxy) a tab delimited, three column file (Subject-Predicate-Object).
 * Merge RDF Graphs. This tool can be used to merge the RDF outputs of different SADI services in a single graph.
-* Optionally, a tool for each SADI service. This results in the same interface as the generic tool, without having to provide the service URI, thus, only the RDF input is needed. The URIs of these services are retrieved from a SADI registry using a SPARQL query, and each service status is tested: if it is not up and running, a Galaxy tool will not be generated for that service (this error will be shown in the log).
+* Optionally, a tool for each SADI service. This results in the same interface as the generic tool, without having to provide the service URI, thus, only the RDF input is needed. The URIs of these services are retrieved from a SADI registry using a SPARQL query, and if a service is not up and running, a Galaxy tool will not be generated for that service (this error will be shown in the log).
 
 Therefore `SADI-Galaxy.sh` can be executed to generate the Generic SADI caller, RDF Syntax Converter, Merge RDF Graphs, and optionally a tool for each of the services retrieved from the registry. In order to configure `SADI-Galaxy.sh`, simply edit the configuration section within the script itself:
 
@@ -31,7 +32,7 @@ Therefore `SADI-Galaxy.sh` can be executed to generate the Generic SADI caller, 
 * `ENDPOINT` (Optional) SADI registry endpoint: e.g. `http://dev.biordf.net/sparql/`
 * `QUERY_DIR` (Optional) Path (Relative to this script) to the folder containing the SPARQL queries to execute (use this to tune which SADI services are retrieved; all the queries present in the directory will be executed): e.g. `sparql/queries/`
   
-So a typical execution to generate the basic system (SADI Galaxy Generic, RDF Syntax Converter, and Merge RDF Graphs but no services from registry) without editing `tool_conf.xml` would look be achievedg with the following parameters:
+So a typical execution to generate the basic system (SADI Galaxy Generic, RDF Syntax Converter, and Merge RDF Graphs but no services from registry) without editing `tool_conf.xml` would look like:
 
 * `GALAXY="/home/mikel/galaxy-dist/"` 
 * `EDIT="no_edit"`
@@ -104,13 +105,6 @@ Use cases
 ---------
 
 There is a public [Galaxy page](http://biordf.org:8983/u/mikel-egana-aranguren/p/sadi-galaxy-jbms-use-cases) with example use cases (the use cases can also be found in this repository at `/use_cases`).
-
-
-Dependencies
-------------
-
-SADI-Galaxy is meant to work in a UNIX system with Bash and sed; it has been tested in Ubuntu and CentOS, with Java 1.7. Merge RDF Graphs depends on Python (Tested with 2.7.3.)
- and [RDFLib](https://github.com/RDFLib/rdflib) (Tested with 4.1.1).
  
 Publications mentioning SADI-Galaxy
 -----------------------------------
