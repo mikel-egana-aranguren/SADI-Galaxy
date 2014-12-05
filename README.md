@@ -13,8 +13,8 @@ Requirements
 
 The main requirement is a working Galaxy server. SADI-Galaxy is meant to work in a UNIX system with Bash and sed; it has been tested in Ubuntu and CentOS, with Java 1.7. Merge RDF Graphs depends on Python (Tested with 2.7.3.) and [RDFLib](https://github.com/RDFLib/rdflib) (Tested with 4.1.1).
 
-Deployment
-----------
+Deployment in a Galaxy server
+-----------------------------
 
 The main function of SADI-Galaxy is to query a SADI registry and create, for each service, a Galaxy tool (a tool XML file and an executable, and an entry in the `tool_conf.xml` file). Those files will be copied to the appropriate places in your Galaxy server (the `galaxy-dist` directory resembles an actual Galaxy server setting so it is self-explanatory); additionally, SADI-Galaxy can be configured to automatically (try to) edit the `tool_conf.xml` file of your Galaxy server.
 
@@ -100,6 +100,11 @@ And then execute the query generator like this:
 `java -jar generate_sparql_queries.jar sparql/basequeries/publisher.sparql wilkinsonlab.info illuminae.com dev.biordf.net Cyber-ShARE sadiframework.org`
 
 This will generate a query for each publisher (wilkinsonlab.info, illuminae.com, dev.biordf.net, Cyber-ShARE, sadiframework.org). 
+
+Deployment as a Docker image
+----------------------------
+
+A [Docker](https://www.docker.com/) image is available with a pre-configured SADI-Galaxy server, including a use case. Please refer to [SADI-Galaxy-Docker](http://github.com/mikel-egana-aranguren/SADI-Galaxy-Docker).
 
 Use cases
 ---------
