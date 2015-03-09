@@ -8,6 +8,13 @@ SADI-Galaxy is able to query any [SADI](http://sadiframework.org/) registry and 
 
 ![http://zenodo.org/record/10181](http://zenodo.org/badge/4255/mikel-egana-aranguren/SADI-Galaxy.png "http://zenodo.org/record/10181")
 
+
+
+[![doi:10.5281/zenodo.10181](https://zenodo.org/badge/doi/10.5281/zenodo.10181.png)](http://dx.doi.org/10.5281/zenodo.10181)
+
+
+
+
 Requirements
 ------------
 
@@ -117,6 +124,8 @@ Publications mentioning SADI-Galaxy
 Alejandro Rodríguez González, Alison Callahan, José Cruz-Toledo, Adrian Garcia, Mikel Egaña Aranguren, Michel Dumontier, Mark D. Wilkinson. Automatically exposing OpenLifeData via SADI semantic Web Services. Journal of Biomedical Semantics 2014, 5(1):46+. [doi:10.1186/2041-1480-5-46](http://dx.doi.org/doi:10.1186/2041-1480-5-46)
 
 Mikel Egaña Aranguren, Alejandro Rodríguez González, Mark D. Wilkinson. Executing SADI services in Galaxy. Journal of Biomedical Semantics 2014, 5(1):42+. [doi:10.1186/2041-1480-5-42](http://dx.doi.org/doi:10.1186/2041-1480-5-42)
+
+Aranguren, M. E. (2015). Merging OpenLifeData with SADI services using Galaxy and Docker (DOI 10.1101/013615). BioRxiv, Cold Spring Harbor Labs [doi:10.1101/013615](http://dx.doi.org/10.1101/013615)
 
 Funding
 -------
